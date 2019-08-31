@@ -43,8 +43,8 @@ A better block reward halving
   * Interval `12500000 blocks (5^8*32)` is about 2 years (exactly 1.9818619989852864... years). The total number of halvings is `33 times`, and it is expected to take about `66 years`.
 - Total supply: 
   * `1073741824 SUGAR` in theory and `1073741823.875 SUGAR` in actual. The difference is `0.125 SUGAR`. One Satoshi (0.00000001) limitation makes this difference. In addition, this number is meaningful. `1 GB = 1073741824 Byte (2^30)`.
-- ![Halving Chart](https://github.com/sugarchain-project/yumekawa-utils/blob/master/max_money/max_money.png)
-- ![Halving Table](https://github.com/sugarchain-project/yumekawa-utils/blob/master/max_money/excel.png)
+- Halving Chart: ![Halving Chart](https://github.com/sugarchain-project/yumekawa-utils/blob/master/max_money/max_money.png)
+- Halving Table: ![Halving Table](https://github.com/sugarchain-project/yumekawa-utils/blob/master/max_money/excel.png)
 
 
 one-CPU-one-vote
