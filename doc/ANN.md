@@ -32,22 +32,25 @@ The world's fastest PoW blockchain
 - Stable transaction time:
   * Even if the hash power suddenly increases, the block time keeps 5 seconds. It is against hash attacks.
 - Don't worry about orphan blocks: 
-  * The average orphaned rate is under 3% and no problem occurs.
+  * According to the testnet results, the average orphaned rate is under 3% and no problem occurs.
 
 
-A better block reward halving
+A better halving
 -----------------------------
 - Halving is everything: 
-  * Bitcoin is valuable because its total supply has been strictly limited, unlike traditional currencies. This total supply is controlled only by that halving. There is nothing else. We made this halving better.
+  * Bitcoin is valuable because its total supply has been strictly limited, unlike traditional currencies. 
+  * This total supply is controlled *only* by that halving. There is nothing else.
+  * We made this halving better.
 - Block reward: 
-  * The block reward should be a power of two. So that it halves correctly.
+  * The block reward should be a *power of two*. So that it halves correctly.
   * ie) `2^32/100000000 = 42.94967296 SUGAR`
 - Halving schedule: 
   * Interval `12500000 blocks (5^8*32)` is about 2 years (exactly 1.9818619989852864... years).
   * The total number of halvings is `33 times`, and it is expected to take about `66 years`.
 - Total supply: 
-  * `1073741824 SUGAR` in theory and `1073741823.875 SUGAR` in actual. The difference is `0.125 SUGAR`. One Satoshi (0.00000001) limitation makes this difference. In addition, this number is meaningful. `1 GB = 1073741824 Byte (2^30)`.
-  * The total supply of Sugarchain is about 51 times more than Bitcoin.
+  * `1073741824 SUGAR` in theory, and `1073741823.875 SUGAR` in actual.
+  * The difference is `0.125 SUGAR`. One Satoshi (0.00000001) limitation makes this difference. In addition, this number is meaningful. FYI) `1 GB = 1073741824 Byte (2^30)`.
+  * The total supply of Sugarchain is about `51` times greater than Bitcoin.
 - Halving Chart: ![Halving Chart](https://github.com/sugarchain-project/yumekawa-utils/blob/master/max_money/max_money.png)
 - Halving Table: ![Halving Table](https://github.com/sugarchain-project/yumekawa-utils/blob/master/max_money/excel.png)
 
