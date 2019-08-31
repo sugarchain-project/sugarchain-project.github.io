@@ -11,18 +11,6 @@ KICK OFF
 
 Specifications
 --------------
-- Block time: `5 seconds`
-- Difficulty: **SugarShield-N510** (based on Zcash's modification of Digishield)
-- Block reward: `42.94967296 SUGAR`
-- Halving interval: `12,500,000 Blocks` (approx. 2 years)
-- Total supply: `1,073,741,824 SUGAR`
-- PoW algorithm: **YespowerSugar** (based on Yespower 1.0.1)
-- Port: 34230 (RPC 34229)
-- Premine: **None** (NO ICO, NO Presale)
-
-
-Specifications
---------------
 | | |
 ------------|------------
 Block time: | `5` seconds
