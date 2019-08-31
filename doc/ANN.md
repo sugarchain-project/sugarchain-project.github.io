@@ -5,9 +5,8 @@ one-CPU-one-vote, the world's fastest PoW blockchain
 
 KICK OFF
 --------
-2019/08/24 15:00 UTC
-Saturday, 24 August 2019, 15:00:00 (UTC time)
-https://www.timeanddate.com/countdown/launch?iso=20190824T15&p0=1440&msg=%5BANN%5D+Sugarchain+%5BCPU%5D+Launching+2019%2F08%2F24+15%3A00+UTC&font=sanserif
+- 2019/08/24 15:00 UTC
+- [Saturday, 24 August 2019, 15:00:00 (UTC time)](https://www.timeanddate.com/countdown/launch?iso=20190824T15&p0=1440&msg=%5BANN%5D+Sugarchain+%5BCPU%5D+Launching+2019%2F08%2F24+15%3A00+UTC&font=sanserif)
 
 
 Specifications
