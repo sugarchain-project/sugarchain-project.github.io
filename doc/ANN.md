@@ -21,6 +21,20 @@ Specifications
 - Premine: **None** (NO ICO, NO Presale)
 
 
+Specifications
+--------------
+| | |
+------------|------------
+Block time: | `5` seconds
+Difficulty: | SugarShield-N510 (based on Zcash's modification of Digishield)
+Block reward: | `42.94967296` SUGAR
+Halving interval: | `12,500,000` Blocks (approx. 2 years)
+Total supply: | `1,073,741,824` SUGAR
+PoW algorithm: | YespowerSugar (based on Yespower 1.0.1)
+Port: | 34230 (RPC 34229)
+Premine: | None (No ICO, No Presale, No Founder's rewards)
+
+
 The world's fastest PoW blockchain
 ----------------------------------
 - 5 seconds transaction speed
@@ -38,11 +52,14 @@ A better block reward halving
 - Halving is everything: 
   * Bitcoin is valuable because its total supply has been strictly limited, unlike traditional currencies. This total supply is controlled only by that halving. There is nothing else. We made this halving better.
 - Block reward: 
-  * The block reward should be a power of two. So that it halves correctly. ie) `2^32/100000000 = 42.94967296 SUGAR`
+  * The block reward should be a power of two. So that it halves correctly.
+  * ie) `2^32/100000000 = 42.94967296 SUGAR`
 - Halving schedule: 
-  * Interval `12500000 blocks (5^8*32)` is about 2 years (exactly 1.9818619989852864... years). The total number of halvings is `33 times`, and it is expected to take about `66 years`.
+  * Interval `12500000 blocks (5^8*32)` is about 2 years (exactly 1.9818619989852864... years).
+  * The total number of halvings is `33 times`, and it is expected to take about `66 years`.
 - Total supply: 
   * `1073741824 SUGAR` in theory and `1073741823.875 SUGAR` in actual. The difference is `0.125 SUGAR`. One Satoshi (0.00000001) limitation makes this difference. In addition, this number is meaningful. `1 GB = 1073741824 Byte (2^30)`.
+  * The total supply of Sugarchain is about 51 times more than Bitcoin.
 - Halving Chart: ![Halving Chart](https://github.com/sugarchain-project/yumekawa-utils/blob/master/max_money/max_money.png)
 - Halving Table: ![Halving Table](https://github.com/sugarchain-project/yumekawa-utils/blob/master/max_money/excel.png)
 
