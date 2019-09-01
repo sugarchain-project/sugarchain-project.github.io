@@ -3,10 +3,12 @@ Sugarchain
 one-CPU-one-vote, the world's fastest PoW blockchain
 
 
-KICK OFF
---------
-- 2019/08/24 15:00 UTC
-- [Saturday, 24 August 2019, 15:00:00 (UTC time)](https://www.timeanddate.com/countdown/launch?iso=20190824T15&p0=1440&msg=%5BANN%5D+Sugarchain+%5BCPU%5D+Launching+2019%2F08%2F24+15%3A00+UTC&font=sanserif)
+The meaning of Yumekawa
+-----------------------
+Sugarchain's first node software is called `Yemekawa (夢川)`. It can be translated in some ways.
+ - "Yume (夢)" means dream and "Kawa (川)" means river. So its `Dream River` in japanese.
+ - The second letter "Kawa" stands for "Kawaii (可愛い)". In this case the meaning is `Dreamy Cute`.
+ - Also Yumekawa is replaces the word `Core` (ie: Bitcoin Core). We think it sounds a bit centralized.
 
 
 Specifications
@@ -153,6 +155,17 @@ Explorer
 Exchanges
 ---------
 - ex4ange (by DobroFenix): https://ex4ange.org/?SUGAR-DOGE
+
+
+License
+-------
+Sugarchain Yumekawa is released under the terms of the MIT license. See [COPYING](COPYING) for more
+information or see https://opensource.org/licenses/MIT.
+- Copyright (c) 2009-2010 Satoshi Nakamoto
+- Copyright (c) 2009-2018 The Bitcoin Core developers
+- Copyright (c) 2013-2019 Alexander Peslyak - Yespower 1.0.1
+- Copyright (c) 2016-2018 The Zcash developers - DigiShieldZEC
+- Copyright (c) 2018-2019 The Sugarchain developers
 
 
 If you are interested in the Sugarchain project, come to [Discord](https://discord.gg/rm7HHv6) and follow us on [Twitter](https://twitter.com/sugarchain_dev).
