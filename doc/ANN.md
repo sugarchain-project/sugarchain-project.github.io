@@ -168,4 +168,7 @@ information or see https://opensource.org/licenses/MIT.
 - Copyright (c) 2018-2019 The Sugarchain developers
 
 
-If you are interested in the Sugarchain project, come to [Discord](https://discord.gg/rm7HHv6) and follow us on [Twitter](https://twitter.com/sugarchain_dev).
+Community
+---------
+- Discord: https://discord.gg/rm7HHv6
+- Twitter: https://twitter.com/sugarchain_dev
