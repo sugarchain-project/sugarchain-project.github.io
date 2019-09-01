@@ -57,15 +57,16 @@ A better halving
 
 one-CPU-one-vote
 ----------------
+> "31/Oct/2008 Proof-of-work is essentially one-CPU-one-vote"
+
 Satoshi Nakamoto said about the importance of decentralized mining in his whitepaper. We want to create a blockchain that anyone can do mining easily without any entry barriers.
 
-> "31/Oct/2008 Proof-of-work is essentially one-CPU-one-vote"
 
 - CPU mining only
   * YespowerSugar (based on Yespower 1.0.1) is only for Sugarchain, not compatible with other Yespower coins.
   * The minimum difficulty (powlimit) is set low enough for two reasons. The first is to handle fast block time. The second is to allow mining on slow CPUs.
 - Mining efficiency: 
-  * According to the test results, the most efficient at 8 threads on a single CPU.
+  * According to the test results, the most efficient at 8 threads on a single CPU. (Ryzen1700 on Linux64)
   * YespowerSugar is more suitable for older CPUs, because it is essentially a multi-threading resistor. Suitable for smartphones and raspberrypi.
 - NO GPU: GPU mining is not possible.
 - NO ASIC: ASIC mining is not possible.
@@ -73,7 +74,7 @@ Satoshi Nakamoto said about the importance of decentralized mining in his whitep
 
 Other advantages
 ----------------
-- Native segwit (Bech32) address as default: It starts with `sugar1q...`
+- Native segwit (Bech32) address by default: Starting with `sugar1q...`
 - Fast blockchain synchronization: Using sha256d in header indexing, the initial synchronization speed is as fast as Litecoin.
 
 
@@ -114,7 +115,7 @@ Wallet
 
 Cpuminer
 --------
-Bech32 address is default and recommended. `-t1` uses 1 thread. if you want more hash, increase this number.
+Bech32 address is by default and strongly recommended. `-t1` uses 1 thread. if you want more hash, increase this number.
 - Solo mining: Make a file `sugarchain.conf`, restart your wallet and run cpuminer-opt-sugarchain (RPC=`34229`, testnet5 RPC=`44229`, regtest RPC=`45339`)
 ```
 server=1
@@ -146,7 +147,7 @@ Explorer
 --------
 - 1explorer: https://1explorer.sugarchain.org/
 - 2explorer: comming soon
-- trezor blockbook: https://sugarchain-blockbook.ilmango.work/
+- trezor blockbook: https://sugarchain-blockbook.ilmango.work/blocks
 
 
 Exchanges
@@ -154,4 +155,4 @@ Exchanges
 - ex4ange (by DobroFenix): https://ex4ange.org/?SUGAR-DOGE
 
 
-If you are interested in the Sugarchain project, come to [Discord](https://discord.gg/rm7HHv6) and please follow us on [Twitter](https://twitter.com/sugarchain_dev).
+If you are interested in the Sugarchain project, come to [Discord](https://discord.gg/rm7HHv6) and follow us on [Twitter](https://twitter.com/sugarchain_dev).
