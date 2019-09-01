@@ -74,7 +74,7 @@ Satoshi Nakamoto said about the importance of decentralized mining in his whitep
 
 Other advantages
 ----------------
-- Native segwit (Bech32) address by default: Starting with `sugar1q...`
+- Native segwit (Bech32) address built-in by default: Starting with `sugar1q...`
 - Fast blockchain synchronization: Using sha256d in header indexing, the initial synchronization speed is as fast as Litecoin.
 
 
