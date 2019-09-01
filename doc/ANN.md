@@ -30,9 +30,9 @@ The world's fastest PoW blockchain
   * 30x faster than Litecoin
   * 12x faster than Dogecoin
 - Stable transaction time:
-  * Even if the hash power suddenly increases, the block time keeps 5 seconds. It is against hash attacks.
+  * Even if the hash power suddenly increases, the block time stays 5 seconds. It is against hash attacks.
 - Don't worry about orphan blocks: 
-  * According to the testnet results, the average orphaned rate is under 3% and no problem occurs.
+  * According to the testnet results, the average orphan rate is under 3% and no problem occurs.
 
 
 A better halving
@@ -42,7 +42,7 @@ A better halving
   * This total supply is controlled *only* by that halving. There is nothing else.
   * We made this halving better.
 - Block reward: 
-  * The block reward should be a *power of two*. So that it halves correctly.
+  * The block reward should be to a *power of two*, so that it halves correctly.
   * ie) `2^32/100000000 = 42.94967296 SUGAR`
 - Halving schedule: 
   * Interval `12500000 blocks (5^8*32)` is about 2 years (exactly 1.9818619989852864... years).
@@ -59,14 +59,14 @@ one-CPU-one-vote
 ----------------
 > "31/Oct/2008 Proof-of-work is essentially one-CPU-one-vote"
 
-Satoshi Nakamoto said about the importance of decentralized mining in his whitepaper. We want to create a blockchain that anyone can do mining easily without any entry barriers.
+Satoshi Nakamoto talked about the importance of decentralized mining in his whitepaper. We want to create a blockchain that anyone can do mining easily without any entry barriers.
 
 
 - CPU mining only
   * YespowerSugar (based on Yespower 1.0.1) is only for Sugarchain, not compatible with other Yespower coins.
-  * The minimum difficulty (powlimit) is set low enough for two reasons. The first is to handle fast block time. The second is to allow mining on slow CPUs.
+  * The minimum difficulty (powlimit) is set low enough for two reasons. The first is to handle fast block time; The second is to allow mining on slow CPUs.
 - Mining efficiency: 
-  * According to the test results, the most efficient at 8 threads on a single CPU. (Ryzen1700 on Linux64)
+  * According to the test results, the most efficient is using 8 threads on a single CPU. (Ryzen1700 on Linux64)
   * YespowerSugar is more suitable for older CPUs, because it is essentially a multi-threading resistor. Suitable for smartphones and raspberrypi.
 - NO GPU: GPU mining is not possible.
 - NO ASIC: ASIC mining is not possible.
@@ -81,13 +81,13 @@ Other advantages
 FAQ
 ---
 - Disk space requirements: 
-  * Blockchain size growth is around `10 MB per 1 day` and 3.65 GB per 1 year.
+  * Blockchain size growth is around `10 MB per 1 day` and 3.65 GB per year.
 - Network rules: 
   * To prevent fraud and timestamp attacks, nodes should be within `70 seconds` of accurate internet time. Or it will be banned.
 - Selfish mining & time warp attack: 
   * Fraud techniques for manipulating timestamps are already known. We use a future time limit (FTL) to prevent this. Blocks that differ `60 seconds` or more from the current head will be banned. (credit: zawy12)
 - Exchange listing: 
-  * We do not have a listing plan at this moment. However it can be discuss it on our community and it will be possible in the future. Please suggest.
+  * We do not have a listing plan at this moment. However, it will be discussed in our community and will be listed in the future. If you have any suggestions for exchange websites, contact us.
 
 
 Appendix
@@ -115,7 +115,7 @@ Wallet
 
 Cpuminer
 --------
-Bech32 address is by default and strongly recommended. `-t1` uses 1 thread. if you want more hash, increase this number.
+Bech32 address is by default and strongly recommended. `-t1` uses 1 thread. If you want more hash, increase this number.
 - Solo mining: Make a file `sugarchain.conf`, restart your wallet and run cpuminer-opt-sugarchain (RPC=`34229`, testnet5 RPC=`44229`, regtest RPC=`45339`)
 ```
 server=1
