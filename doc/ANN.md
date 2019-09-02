@@ -53,8 +53,8 @@ A better halving
   * `1073741824 SUGAR` in theory, and `1073741823.875 SUGAR` in actual.
   * The difference is `0.125 SUGAR`. One Satoshi (0.00000001) limitation makes this difference. In addition, this number is meaningful. FYI) `1 GB = 1073741824 Byte (2^30)`.
   * The total supply of Sugarchain is about `51` times greater than Bitcoin.
-- Halving Chart: ![Halving Chart](https://github.com/sugarchain-project/yumekawa-utils/blob/master/max_money/halving_chart.png)
-- Halving Table: ![Halving Table](https://github.com/sugarchain-project/yumekawa-utils/blob/master/max_money/halving_table.png)
+- Halving Chart: ![Halving Chart](https://github.com/sugarchain-project/website/blob/master/image/halving_chart.png)
+- Halving Table: ![Halving Table](https://github.com/sugarchain-project/website/blob/master/image/halving_table.png)
 
 
 one-CPU-one-vote
