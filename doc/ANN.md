@@ -8,7 +8,7 @@ The meaning of Yumekawa
 Sugarchain's first node software is called `Yemekawa (夢川)`. It can be translated in some ways.
  - "Yume (夢)" means dream and "Kawa (川)" means river. So its `Dream River` in japanese.
  - The second letter "Kawa" stands for "Kawaii (可愛い)". In this case the meaning is `Dreamy Cute`.
- - Also Yumekawa is replaces the word `Core` (ie: Bitcoin Core). We think it sounds a bit centralized.
+ - Also Yumekawa replaces the word `Core` (ie: Bitcoin Core). We think it sounds a bit centralized.
 
 
 Specifications
@@ -32,7 +32,7 @@ The world's fastest PoW blockchain
   * 30x faster than Litecoin
   * 12x faster than Dogecoin
 - Stable transaction time:
-  * Even if the hash power suddenly increases, the block time stays 5 seconds. It is against hash attacks.
+  * Even if the hash power suddenly increases, the block time remains 5 seconds. It is against hash attacks.
 - Don't worry about orphan blocks: 
   * According to the testnet results, the average orphan rate is under 3% and no problem occurs.
 
@@ -48,7 +48,7 @@ A better halving
   * ie) `2^32/100000000 = 42.94967296 SUGAR`
 - Halving schedule: 
   * Interval `12500000 blocks (5^8*32)` is about 2 years (exactly 1.9818619989852864... years).
-  * The total number of halvings is `33 times`, and it is expected to take about `66 years`.
+  * The total number of times a halving will take place is `33 times`, over the span of `66 years`.
 - Total supply: 
   * `1073741824 SUGAR` in theory, and `1073741823.875 SUGAR` in actual.
   * The difference is `0.125 SUGAR`. One Satoshi (0.00000001) limitation makes this difference. In addition, this number is meaningful. FYI) `1 GB = 1073741824 Byte (2^30)`.
@@ -68,7 +68,7 @@ Satoshi Nakamoto talked about the importance of decentralized mining in his whit
   * YespowerSugar (based on Yespower 1.0.1) is only for Sugarchain, not compatible with other Yespower coins.
   * The minimum difficulty (powlimit) is set low enough for two reasons. The first is to handle fast block time; The second is to allow mining on slow CPUs.
 - Mining efficiency: 
-  * According to the test results, the most efficient is using 8 threads on a single CPU. (Ryzen1700 on Linux64)
+  * According to the test results, the most efficient is using 8 threads on a single CPU.
   * YespowerSugar is more suitable for older CPUs, because it is essentially a multi-threading resistor. Suitable for smartphones and raspberrypi.
 - NO GPU: GPU mining is not possible.
 - NO ASIC: ASIC mining is not possible.
@@ -85,7 +85,7 @@ FAQ
 - Disk space requirements: 
   * Blockchain size growth is around `10 MB per 1 day` and 3.65 GB per year.
 - Network rules: 
-  * To prevent fraud and timestamp attacks, nodes should be within `70 seconds` of accurate internet time. Or it will be banned.
+  * To prevent fraud and timestamp attacks, nodes should be within `70 seconds` of accurate internet time, or they will be banned.
 - Selfish mining & time warp attack: 
   * Fraud techniques for manipulating timestamps are already known. We use a future time limit (FTL) to prevent this. Blocks that differ `60 seconds` or more from the current head will be banned. (credit: zawy12)
 - Exchange listing: 
