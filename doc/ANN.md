@@ -171,4 +171,4 @@ information or see https://opensource.org/licenses/MIT.
 Community
 ---------
 - Discord: https://discord.gg/rm7HHv6
-- Twitter: https://twitter.com/sugarchain_dev
+- Twitter: https://twitter.com/sugarchain_dev 
