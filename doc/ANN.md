@@ -123,6 +123,7 @@ Bech32 address is by default and strongly recommended. `-t1` uses 1 thread. If y
 server=1
 rpcuser=username
 rpcpassword=password
+rpcallowip=127.0.0.1
 ```
 ```bash
 ./cpuminer -a yespower -o http://localhost:34229 -u username -p password --coinbase-addr=sugar1q... -t1
