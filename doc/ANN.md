@@ -6,7 +6,7 @@ one-CPU-one-vote, the world's fastest PoW blockchain
 The meaning of Yumekawa
 -----------------------
 Sugarchain's first node software is called `Yumekawa (夢川)`. It can be translated in some ways.
- - "Yume (夢)" means dream and "Kawa (川)" means river. So its `Dream River` in japanese.
+ - "Yume (夢)" means dream and "Kawa (川)" means river. So it's `Dream River` in japanese.
  - The second letter "Kawa" stands for "Kawaii (可愛い)". In this case the meaning is `Dreamy Cute`.
  - Also Yumekawa replaces the word `Core` (ie: Bitcoin Core). We think it sounds a bit centralized.
 
@@ -47,11 +47,11 @@ A better halving
   * The block reward should be to a *power of two*, so that it halves correctly.
   * ie) `2^32/100000000 = 42.94967296 SUGAR`
 - Halving schedule: 
-  * Interval `12500000 blocks (5^8*32)` is about 2 years (exactly 1.9818619989852864... years).
-  * The total number of times a halving will take place is `33 times`, over the span of `66 years`.
+  * Interval `12500000 blocks (5^8*32)` which is about 2 years (exactly 1.9818619989852864... years).
+  * The total number of times halving will occur is `33 times`, over the span of `66 years`.
 - Total supply: 
   * `1073741824 SUGAR` in theory, and `1073741823.875 SUGAR` in actual.
-  * The difference is `0.125 SUGAR`. One Satoshi (0.00000001) limitation makes this difference. In addition, this number is meaningful. FYI) `1 GB = 1073741824 Byte (2^30)`.
+  * The difference is `0.125 SUGAR`. One Satoshi (0.00000001) limitation makes this difference. In addition, this number is meaningful. FYI: `1 GB = 1073741824 Byte (2^30)`.
   * The total supply of Sugarchain is about `51` times greater than Bitcoin.
 - Halving Chart: ![Halving Chart](https://github.com/sugarchain-project/website/blob/master/image/halving_chart.png)
 - Halving Table: ![Halving Table](https://github.com/sugarchain-project/website/blob/master/image/halving_table.png)
