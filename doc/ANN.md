@@ -51,10 +51,10 @@ A better halving
   * The total number of times halving will occur is `33 times`, over the span of `66 years`.
 - Total supply: 
   * `1073741824 SUGAR` in theory, and `1073741823.875 SUGAR` in actual.
-  * The difference is `0.125 SUGAR`. One Satoshi (0.00000001) limitation makes this difference. In addition, this number is meaningful. (FYI `1 GB = 1073741824 Byte (2^30)`).
+  * The difference is `0.125 SUGAR`. One Satoshi (0.00000001) limitation makes this difference. In addition, this number is meaningful. FYI: `1 GB = 1073741824 Byte (2^30)`.
   * The total supply of Sugarchain is about `51` times greater than Bitcoin.
-- Halving Chart: ![Halving Chart](https://github.com/sugarchain-project/yumekawa-utils/blob/master/max_money/max_money.png)
-- Halving Table: ![Halving Table](https://github.com/sugarchain-project/yumekawa-utils/blob/master/max_money/excel.png)
+- Halving Chart: ![Halving Chart](https://github.com/sugarchain-project/website/blob/master/image/halving_chart.png)
+- Halving Table: ![Halving Table](https://github.com/sugarchain-project/website/blob/master/image/halving_table.png)
 
 
 one-CPU-one-vote
@@ -95,12 +95,12 @@ FAQ
 Appendix
 --------
 - Block time vs difficulty at first launching on testnet
-  * To keep the block time 5 seconds, SugarShield-N510 adjusts the difficulty level. Unlike the Zcash's modification version, we use a moving average of `510 blocks` (about 42.5 minutes). It counts from block 1, an adjustment is made at block 511, and the actual control begins at block 512. [(log: time-diff)](https://github.com/cryptozeny/difficulty/blob/master/examples-ANN/main.Sugarchain(t5)-YP-DS(n510)-13536.log)
-  * ![Blocktime vs Difficulty](https://github.com/cryptozeny/difficulty/blob/master/examples/test.Sugarchain(t5)-YP-DS(n510).png)
+  * To keep the block time 5 seconds, SugarShield-N510 adjusts the difficulty level. Unlike the Zcash's modification version, we use a moving average of `510 blocks` (about 42.5 minutes). It counts from block 1, an adjustment is made at block 511, and the actual control begins at block 512. [(log: time-diff)](https://github.com/sugarchain-project/website/blob/master/log/time_vs_difficulty-13536.log)
+  * ![Blocktime vs Difficulty](https://github.com/sugarchain-project/website/blob/master/image/time_vs_difficulty.png)
 
 - Nonce distribution at first launching on testnet 
-  * The nonce is randomly well distributed. Difficulty changes but no bias. [(log: nonce-diff)](https://github.com/cryptozeny/difficulty/blob/master/examples-ANN/NONCE-main.Sugarchain(t5)-YP-DS(n510)-13548.log)
-  * ![Nonce vs Difficulty](https://github.com/cryptozeny/difficulty/blob/master/examples/NONCE-test.Sugarchain(t5)-YP-DS(n510).png)
+  * The nonce is randomly well distributed. Difficulty changes but no bias. [(log: nonce-diff)](https://github.com/sugarchain-project/website/blob/master/log/nonce_vs_difficulty-13548.log)
+  * ![Nonce vs Difficulty](https://github.com/sugarchain-project/website/blob/master/image/nonce_vs_difficulty.png)
 
 
 Wallet
@@ -118,13 +118,11 @@ Wallet
 Cpuminer
 --------
 Bech32 address is by default and strongly recommended. `-t1` uses 1 thread. If you want more hash, increase this number.
-- Solo mining: Open wallet and go to Settings>Options>Wallet Configuration and enter the code below , restart your wallet and run cpuminer-opt-sugarchain (RPC=`34229`, testnet5 RPC=`44229`, regtest RPC=`45339`)
+- Solo mining: Make a file `sugarchain.conf`, restart your wallet and run cpuminer-opt-sugarchain (RPC=`34229`, testnet5 RPC=`44229`, regtest RPC=`45339`)
 ```
 server=1
 rpcuser=username
 rpcpassword=password
-rpcallowip=127.0.0.1
-rpcport=34229
 ```
 ```bash
 ./cpuminer -a yespower -o http://localhost:34229 -u username -p password --coinbase-addr=sugar1q... -t1
