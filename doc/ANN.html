@@ -1,0 +1,162 @@
+<h1 id="sugarchain">Sugarchain</h1>
+<p>one-CPU-one-vote, the world's fastest PoW blockchain</p>
+<h2 id="the-meaning-of-yumekawa">The meaning of Yumekawa</h2>
+<p>Sugarchain's first node software is called <code>Yumekawa (夢川)</code>. It can be translated in some ways. - &quot;Yume (夢)&quot; means dream and &quot;Kawa (川)&quot; means river. So its <code>Dream River</code> in japanese. - The second letter &quot;Kawa&quot; stands for &quot;Kawaii (可愛い)&quot;. In this case the meaning is <code>Dreamy Cute</code>. - Also Yumekawa replaces the word <code>Core</code> (ie: Bitcoin Core). We think it sounds a bit centralized.</p>
+<h2 id="specifications">Specifications</h2>
+<table style="width:36%;">
+<colgroup>
+<col width="18%" />
+<col width="18%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="left">Block time:</td>
+<td align="left"><code>5</code> seconds</td>
+</tr>
+<tr class="even">
+<td align="left">Difficulty:</td>
+<td align="left">SugarShield-N510 (based on Zcash's modification of Digishield)</td>
+</tr>
+<tr class="odd">
+<td align="left">Block reward:</td>
+<td align="left"><code>42.94967296</code> SUGAR</td>
+</tr>
+<tr class="even">
+<td align="left">Halving interval:</td>
+<td align="left"><code>12,500,000</code> Blocks (approx. 2 years)</td>
+</tr>
+<tr class="odd">
+<td align="left">Total supply:</td>
+<td align="left"><code>1,073,741,824</code> SUGAR</td>
+</tr>
+<tr class="even">
+<td align="left">PoW algorithm:</td>
+<td align="left">YespowerSugar (based on Yespower 1.0.1)</td>
+</tr>
+<tr class="odd">
+<td align="left">Port:</td>
+<td align="left">34230 (RPC 34229)</td>
+</tr>
+<tr class="even">
+<td align="left">Premine:</td>
+<td align="left">None (No ICO, No Presale, No Founder's rewards)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="the-worlds-fastest-pow-blockchain">The world's fastest PoW blockchain</h2>
+<ul>
+<li>5 seconds transaction speed</li>
+<li>120x faster than Bitcoin</li>
+<li>30x faster than Litecoin</li>
+<li>12x faster than Dogecoin</li>
+<li>Stable transaction time:</li>
+<li>Even if the hash power suddenly increases, the block time remains 5 seconds. It is against hash attacks.</li>
+<li>Don't worry about orphan blocks:</li>
+<li>According to the testnet results, the average orphan rate is under 3% and no problem occurs.</li>
+</ul>
+<h2 id="a-better-halving">A better halving</h2>
+<ul>
+<li>Halving is everything:</li>
+<li>Bitcoin is valuable because its total supply has been strictly limited, unlike traditional currencies.</li>
+<li>This total supply is controlled <em>only</em> by that halving. There is nothing else.</li>
+<li>We made this halving better.</li>
+<li>Block reward:</li>
+<li>The block reward should be to a <em>power of two</em>, so that it halves correctly.</li>
+<li>ie) <code>2^32/100000000 = 42.94967296 SUGAR</code></li>
+<li>Halving schedule:</li>
+<li>Interval <code>12500000 blocks (5^8*32)</code> is about 2 years (exactly 1.9818619989852864... years).</li>
+<li>The total number of times a halving will take place is <code>33 times</code>, over the span of <code>66 years</code>.</li>
+<li>Total supply:</li>
+<li><code>1073741824 SUGAR</code> in theory, and <code>1073741823.875 SUGAR</code> in actual.</li>
+<li>The difference is <code>0.125 SUGAR</code>. One Satoshi (0.00000001) limitation makes this difference. In addition, this number is meaningful. FYI) <code>1 GB = 1073741824 Byte (2^30)</code>.</li>
+<li>The total supply of Sugarchain is about <code>51</code> times greater than Bitcoin.</li>
+<li>Halving Chart: <img src="https://github.com/sugarchain-project/website/blob/master/image/halving_chart.png" alt="Halving Chart" /></li>
+<li>Halving Table: <img src="https://github.com/sugarchain-project/website/blob/master/image/halving_table.png" alt="Halving Table" /></li>
+</ul>
+<h2 id="one-cpu-one-vote">one-CPU-one-vote</h2>
+<blockquote>
+<p>&quot;31/Oct/2008 Proof-of-work is essentially one-CPU-one-vote&quot;</p>
+</blockquote>
+<p>Satoshi Nakamoto talked about the importance of decentralized mining in his whitepaper. We want to create a blockchain that anyone can do mining easily without any entry barriers.</p>
+<ul>
+<li>CPU mining only</li>
+<li>YespowerSugar (based on Yespower 1.0.1) is only for Sugarchain, not compatible with other Yespower coins.</li>
+<li>The minimum difficulty (powlimit) is set low enough for two reasons. The first is to handle fast block time; The second is to allow mining on slow CPUs.</li>
+<li>Mining efficiency:</li>
+<li>According to the test results, the most efficient is using 8 threads on a single CPU.</li>
+<li>YespowerSugar is more suitable for older CPUs, because it is essentially a multi-threading resistor. Suitable for smartphones and raspberrypi.</li>
+<li>NO GPU: GPU mining is not possible.</li>
+<li>NO ASIC: ASIC mining is not possible.</li>
+</ul>
+<h2 id="other-advantages">Other advantages</h2>
+<ul>
+<li>Native segwit (Bech32) address built-in by default: Starting with <code>sugar1q...</code></li>
+<li>Fast blockchain synchronization: Using sha256d in header indexing, the initial synchronization speed is as fast as Litecoin.</li>
+</ul>
+<h2 id="faq">FAQ</h2>
+<ul>
+<li>Disk space requirements:</li>
+<li>Blockchain size growth is around <code>10 MB per 1 day</code> and 3.65 GB per year.</li>
+<li>Network rules:</li>
+<li>To prevent fraud and timestamp attacks, nodes should be within <code>70 seconds</code> of accurate internet time, or they will be banned.</li>
+<li>Selfish mining &amp; time warp attack:</li>
+<li>Fraud techniques for manipulating timestamps are already known. We use a future time limit (FTL) to prevent this. Blocks that differ <code>60 seconds</code> or more from the current head will be banned. (credit: zawy12)</li>
+<li>Exchange listing:</li>
+<li>We do not have a listing plan at this moment. However, it will be discussed in our community and will be listed in the future. If you have any suggestions for exchange websites, contact us.</li>
+</ul>
+<h2 id="appendix">Appendix</h2>
+<ul>
+<li>Block time vs difficulty at first launching on testnet</li>
+<li>To keep the block time 5 seconds, SugarShield-N510 adjusts the difficulty level. Unlike the Zcash's modification version, we use a moving average of <code>510 blocks</code> (about 42.5 minutes). It counts from block 1, an adjustment is made at block 511, and the actual control begins at block 512. <a href="https://github.com/sugarchain-project/website/blob/master/log/time_vs_difficulty-13536.log">(log: time-diff)</a></li>
+<li><div class="figure">
+<img src="https://github.com/sugarchain-project/website/blob/master/image/time_vs_difficulty.png" alt="Blocktime vs Difficulty" />
+<p class="caption">Blocktime vs Difficulty</p>
+</div></li>
+<li>Nonce distribution at first launching on testnet</li>
+<li>The nonce is randomly well distributed. Difficulty changes but no bias. <a href="https://github.com/sugarchain-project/website/blob/master/log/nonce_vs_difficulty-13548.log">(log: nonce-diff)</a></li>
+<li><div class="figure">
+<img src="https://github.com/sugarchain-project/website/blob/master/image/nonce_vs_difficulty.png" alt="Nonce vs Difficulty" />
+<p class="caption">Nonce vs Difficulty</p>
+</div></li>
+</ul>
+<h2 id="wallet">Wallet</h2>
+<ul>
+<li>Win64: https://github.com/sugarchain-project/sugarchain/releases/tag/release-0.16.3.21rc1</li>
+<li>Win32: comming soon</li>
+<li>Linux64: https://github.com/sugarchain-project/sugarchain/releases/tag/release-0.16.3.21rc1</li>
+<li>Linux32: comming soon</li>
+<li>OSX: https://github.com/sugarchain-project/sugarchain/releases/tag/release-0.16.3.21rc1</li>
+<li>ARM64: comming soon</li>
+<li>ARM32: comming soon</li>
+<li>Source: comming soon</li>
+</ul>
+<h2 id="cpuminer">Cpuminer</h2>
+<p>Bech32 address is by default and strongly recommended. <code>-t1</code> uses 1 thread. If you want more hash, increase this number. - Solo mining: Make a file <code>sugarchain.conf</code>, restart your wallet and run cpuminer-opt-sugarchain (RPC=<code>34229</code>, testnet5 RPC=<code>44229</code>, regtest RPC=<code>45339</code>)</p>
+<pre><code>server=1
+rpcuser=username
+rpcpassword=password</code></pre>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">./cpuminer</span> -a yespower -o http://localhost:34229 -u username -p password --coinbase-addr=sugar1q... -t1</code></pre></div>
+<ul>
+<li><p>Pool mining:</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">./cpuminer</span> -a yespower -o stratum+tcp://POOL_ADDRESS:PORT -u sugar1q... -t1</code></pre></div></li>
+<li><p><strong>cpuminer-opt-sugarchain</strong>: https://github.com/cryptozeny/cpuminer-opt-sugarchain/releases/tag/v3.8.8.1.7rc1</p></li>
+</ul>
+<h2 id="pools">Pools</h2>
+<p>Please contact us if you have a new mining pool. - 1pool@tokyo https://1pool.sugarchain.org/ - 2pool@tokyo https://2pool.sugarchain.org/ - 52hash@china http://sugar.52hash.com/ - rplant@moscow https://pool.rplant.xyz/ - happysensor@korea http://pool.happysensor.xyz/</p>
+<h2 id="explorer">Explorer</h2>
+<ul>
+<li>1explorer: https://1explorer.sugarchain.org/</li>
+<li>2explorer: comming soon</li>
+<li>trezor blockbook: https://sugarchain-blockbook.ilmango.work/blocks</li>
+</ul>
+<h2 id="exchanges">Exchanges</h2>
+<ul>
+<li>ex4ange (by DobroFenix): https://ex4ange.org/?SUGAR-DOGE</li>
+</ul>
+<h2 id="license">License</h2>
+<p>Sugarchain Yumekawa is released under the terms of the MIT license. See <a href="COPYING" class="uri">COPYING</a> for more information or see https://opensource.org/licenses/MIT. - Copyright (c) 2009-2010 Satoshi Nakamoto - Copyright (c) 2009-2018 The Bitcoin Core developers - Copyright (c) 2013-2019 Alexander Peslyak - Yespower 1.0.1 - Copyright (c) 2016-2018 The Zcash developers - DigiShieldZEC - Copyright (c) 2018-2019 The Sugarchain developers</p>
+<h2 id="community">Community</h2>
+<ul>
+<li>Discord: https://discord.gg/rm7HHv6</li>
+<li>Twitter: https://twitter.com/sugarchain_dev</li>
+</ul>
