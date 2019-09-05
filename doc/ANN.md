@@ -133,6 +133,8 @@ rpcallowip=127.0.0.1
 ./cpuminer -a yespower -o stratum+tcp://POOL_ADDRESS:PORT -u sugar1q... -t1
 ```
 
+- For mining on Windows, please check out our detailed tutorial here: https://github.com/sugarchain-project/Windows-Mining/wiki/Solo-Mining-for-Windows
+
 - **cpuminer-opt-sugarchain**: https://github.com/cryptozeny/cpuminer-opt-sugarchain/releases/tag/v3.8.8.1.7rc1
 
 
