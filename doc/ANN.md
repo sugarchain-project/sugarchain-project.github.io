@@ -105,11 +105,11 @@ Appendix
 
 Wallet
 ------
-- Win64: https://github.com/sugarchain-project/sugarchain/releases/tag/release-0.16.3.21rc1
+- Win64: https://github.com/sugarchain-project/sugarchain/releases/latest
 - Win32: comming soon 
-- Linux64: https://github.com/sugarchain-project/sugarchain/releases/tag/release-0.16.3.21rc1
+- Linux64: https://github.com/sugarchain-project/sugarchain/releases/latest
 - Linux32: comming soon
-- OSX: https://github.com/sugarchain-project/sugarchain/releases/tag/release-0.16.3.21rc1
+- OSX: https://github.com/sugarchain-project/sugarchain/releases/latest
 - ARM64: comming soon
 - ARM32: comming soon
 - Source: comming soon
@@ -118,6 +118,7 @@ Wallet
 Cpuminer
 --------
 Bech32 address is by default and strongly recommended. `-t1` uses 1 thread. If you want more hash, increase this number.
+- **cpuminer-opt-sugarchain**: https://github.com/cryptozeny/cpuminer-opt-sugarchain/releases/latest
 - Solo mining: Make a file `sugarchain.conf`, restart your wallet and run cpuminer-opt-sugarchain (RPC=`34229`, testnet5 RPC=`44229`, regtest RPC=`45339`)
 ```
 server=1
@@ -132,10 +133,7 @@ rpcallowip=127.0.0.1
 ```bash
 ./cpuminer -a yespower -o stratum+tcp://POOL_ADDRESS:PORT -u sugar1q... -t1
 ```
-
 - For mining on Windows, please check out our detailed tutorial here: https://github.com/sugarchain-project/Windows-Mining/wiki/Solo-Mining-for-Windows
-
-- **cpuminer-opt-sugarchain**: https://github.com/cryptozeny/cpuminer-opt-sugarchain/releases/tag/v3.8.8.1.7rc1
 
 
 Pools
