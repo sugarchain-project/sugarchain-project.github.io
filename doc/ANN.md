@@ -167,6 +167,7 @@ Community
 - Discord: **Deleted by someone's reporting - Saturday, 7 September, 2019 (UTC)**
 - Telegram: https://t.me/sugarchain
 - Twitter: https://twitter.com/sugarchain_dev
+- Forum: https://forum.sugarchain.org/
 
 
 License
