@@ -141,11 +141,13 @@ rpcallowip=127.0.0.1
 Pools
 -----
 Please contact us if you have a new mining pool.
-- 1pool@tokyo https://1pool.sugarchain.org/
-- 2pool@tokyo https://2pool.sugarchain.org/
-- 52hash@china http://sugar.52hash.com/
-- rplant@moscow https://pool.rplant.xyz/
-- happysensor@korea http://pool.happysensor.xyz/
+- 1pool@tokyo: https://1pool.sugarchain.org/
+- 2pool@tokyo: https://2pool.sugarchain.org/
+- 52hash@china: http://sugar.52hash.com/
+- rplant@moscow: https://pool.rplant.xyz/
+- happysensor@korea: http://pool.happysensor.xyz/
+- skypool@global: https://sugar.skypool.co/
+- hashpex@USA: http://hashpex.com/
 
 
 Explorer
@@ -162,7 +164,8 @@ Exchanges
 
 Community
 ---------
-- Discord: https://discord.gg/rm7HHv6
+- Discord: **Deleted due to someone reporting**
+- Telegram: https://t.me/sugarchain
 - Twitter: https://twitter.com/sugarchain_dev
 
 
