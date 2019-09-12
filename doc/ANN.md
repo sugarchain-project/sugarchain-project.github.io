@@ -145,7 +145,7 @@ Please contact us if you have a new mining pool.
 - rplant@moscow: https://pool.rplant.xyz
 - happysensor@korea: http://pool.happysensor.xyz
 - hashpex@USA: http://hashpex.com
-- skypool@global: https://sugar.skypool.co (beta mode)
+- skypool@global: https://sugar.skypool.co
 
 
 Explorer
