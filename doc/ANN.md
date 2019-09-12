@@ -164,6 +164,7 @@ Community
 ---------
 - Discord: **Deleted by someone's reporting - Saturday, 7 September, 2019 (UTC)**
 - Forum: https://forum.sugarchain.org/
+- Bitcointalk: https://bitcointalk.org/index.php?topic=5177722.0
 - Telegram: https://t.me/sugarchain
 - Twitter: https://twitter.com/sugarchain_dev
 
