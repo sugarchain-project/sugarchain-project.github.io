@@ -1,6 +1,7 @@
 Sugarchain
 ==========
 one-CPU-one-vote, the world's fastest PoW blockchain
+https://sugarchain.org
 
 
 The meaning of Yumekawa
