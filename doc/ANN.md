@@ -139,18 +139,18 @@ rpcallowip=127.0.0.1
 Pools
 -----
 Please contact us if you have a new mining pool.
-- 1pool@tokyo: https://1pool.sugarchain.org/
-- 2pool@tokyo: https://2pool.sugarchain.org/
-- 52hash@china: http://sugar.52hash.com/
-- rplant@moscow: https://pool.rplant.xyz/
-- happysensor@korea: http://pool.happysensor.xyz/
-- hashpex@USA: http://hashpex.com/
-- skypool@global: https://sugar.skypool.co/ (beta mode)
+- 1pool@tokyo: https://1pool.sugarchain.org
+- 2pool@tokyo: https://2pool.sugarchain.org
+- 52hash@china: http://sugar.52hash.com
+- rplant@moscow: https://pool.rplant.xyz
+- happysensor@korea: http://pool.happysensor.xyz
+- hashpex@USA: http://hashpex.com
+- skypool@global: https://sugar.skypool.co (beta mode)
 
 
 Explorer
 --------
-- 1explorer: https://1explorer.sugarchain.org/
+- 1explorer: https://1explorer.sugarchain.org
 - 2explorer: comming soon
 - trezor blockbook: https://sugarchain-blockbook.ilmango.work/blocks
 
@@ -163,7 +163,7 @@ Exchanges
 Community
 ---------
 - Discord: **Deleted by someone's reporting - Saturday, 7 September, 2019 (UTC)**
-- Forum: https://forum.sugarchain.org/
+- Forum: https://forum.sugarchain.org
 - Bitcointalk: https://bitcointalk.org/index.php?topic=5177722.0
 - Telegram: https://t.me/sugarchain
 - Twitter: https://twitter.com/sugarchain_dev
