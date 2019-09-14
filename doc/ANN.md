@@ -163,7 +163,7 @@ Exchanges
 
 Community
 ---------
-- Discord: **Deleted by someone's reporting - Saturday, 7 September, 2019 (UTC)**
+- Discord: https://discord.gg/5fvpTdk
 - Forum: https://forum.sugarchain.org
 - Bitcointalk: https://bitcointalk.org/index.php?topic=5177722.0
 - Telegram: https://t.me/sugarchain
