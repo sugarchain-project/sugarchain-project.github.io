@@ -120,7 +120,7 @@ Cpuminer
 --------
 Bech32 address is by default and strongly recommended. `-t1` uses 1 thread. If you want more hash, increase this number.
 - **cpuminer-opt-sugarchain**: https://github.com/cryptozeny/cpuminer-opt-sugarchain/releases/latest
-- Solo mining:
+- Solo mining: We strongly recommend solo mining for decentralization.
   * Make a file `sugarchain.conf`
   ```
   server=1
