@@ -1,6 +1,6 @@
 Sugarchain
 ==========
-one-CPU-one-vote, the world's fastest PoW blockchain<br/>
+one-CPU-one-vote, the world's fastest PoW blockchain  
 https://sugarchain.org
 
 
