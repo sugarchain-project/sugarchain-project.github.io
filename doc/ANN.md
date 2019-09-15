@@ -164,7 +164,9 @@ Explorer
 
 Exchanges
 ---------
-- ex4ange (by DobroFenix): https://ex4ange.org/?SUGAR-DOGE
+- EX4ANGE (by DobroFenix & Tesla)
+  * SUGAR-DOGE: https://ex4ange.org/?SUGAR-DOGE
+  * SUGAR-BTC: https://ex4ange.org/?SUGAR-BTC
 
 
 Community
