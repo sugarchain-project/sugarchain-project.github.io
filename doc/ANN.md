@@ -131,7 +131,7 @@ Bech32 address is by default and strongly recommended. `-t1` uses 1 thread. If y
   * Restart your Yumekawa wallet
   * Run cpuminer-opt-sugarchain (RPC=`34229`, testnet5 RPC=`44229`, regtest RPC=`45339`)
   ```bash
-  ./cpuminer -a yespower -o http://localhost:34229 -u username -p password --coinbase-addr=sugar1q... -t1
+  ./cpuminer -a yespower -o http://localhost:34229 --no-longpoll -u username -p password --coinbase-addr=sugar1q... -t1
   ```
   * Detailed solo mining tutorials:
     - Windows: https://forum.sugarchain.org/d/9-solo-mining-on-windows
