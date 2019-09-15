@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>Sugarchain</title>
+		<link rel="icon" type="image/png" href="logo.png">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu Mono' rel='stylesheet'>
+
+		<style>
+			body, html {
+				font-family: 'Ubuntu';
+				height: 100%;
+				padding: 0;
+				margin: 0;
+			}
+			header {
+				height: 100%;
+				padding: 0;
+				margin: 0;
+				display: -webkit-box;
+				display: -moz-box;
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				background-color: #202225;
+				color: #ffffff;
+			}
+			header h1 {
+				margin: 0;
+			}
+			header .content {
+				width: 100%;
+				display: flex;
+			}
+			header img.logo {
+				max-width: 256px;
+			}
+			header .links a {
+				margin: 0px 5px;
+				display: inline-block;
+			}
+			a {
+				color: #7f97d8;
+				text-decoration: underline;
+				transition: ease-in 0.1s;
+			}
+			a:hover {
+				color: #5877cc;
+			}
+			#specs {
+				padding: 30px 0px;
+			}
+			#specs img {
+				max-width: 100%;
+			}
+			footer {
+				background-color: #191B1C;
+				color: #ffffff;
+				padding: 20px;
+			}
+			code {
+				/* background-color: #cccccc; */
+				padding: 2px;
+				margin: 2px;
+				font-family: 'Ubuntu Mono';
+				font-size: 112%;
+				color: #e83e8c;
+			}
+			pre code {
+				/* background-color: #cccccc; */
+				padding: 0px;
+				margin: 0px;
+				font-family: 'Ubuntu Mono';
+				font-size: 112%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<div class="content">
+				<div class="text-center container">
+					<img src="logo.png" alt="Logo" class="logo mb-2">
+					<h1 class="d-block mb-2">
+						Sugarchain
+					</h1>
+					<h4>
+						one-CPU-one-vote, the world's fastest PoW blockchain
+					</h4>
+					<div id="height" class="d-block mb-2">
+						Current height is <span class="loading">loading...</span> <a href="#" class="current d-none" target="_blank">0</a> (<span class="passed">0</span> blocks since you open this page)
+					</div>
+					<div class="links mb-2">
+						<a href="#specs" class="scroll">SPECS</a>
+						<a href="https://github.com/sugarchain-project/sugarchain/releases/latest" target="_blank">WALLET</a>
+						<a href="https://github.com/cryptozeny/cpuminer-opt-sugarchain/releases/latest" target="_blank">CPUMINER</a>
+						<a href="#contacts" class="scroll">CONTACTS</a>
+					</div>
+				</div>
+			</div>
+		</header>
+	
+		<section id="specs">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="specs-body">
+							<!-- BEGIN - WEBSITE -->
+							<!-- MD to HTML: https://dillinger.io/ -->
+
+							<h1 class="code-line" data-line-start=0 data-line-end=2 ><a id="Sugarchain_0"></a>Sugarchain</h1>
+							<p class="has-line-data" data-line-start="2" data-line-end="3">one-CPU-one-vote, the world’s fastest PoW blockchain<br><a href="https://sugarchain.org">https://sugarchain.org</a></p>
+							<h2 class="code-line" data-line-start=5 data-line-end=7 ><a id="The_meaning_of_Yumekawa_5"></a>The meaning of Yumekawa</h2>
+							<p class="has-line-data" data-line-start="7" data-line-end="8">Sugarchain’s first node software is called <code>Yumekawa (夢川)</code>. It can be translated in some ways.</p>
+							<ul>
+							<li class="has-line-data" data-line-start="8" data-line-end="9">“Yume (夢)” means dream and “Kawa (川)” means river. So it's <code>Dream River</code> in japanese.</li>
+							<li class="has-line-data" data-line-start="9" data-line-end="10">The second letter “Kawa” stands for “Kawaii (可愛い)”. In this case the meaning is <code>Dreamy Cute</code>.</li>
+							<li class="has-line-data" data-line-start="10" data-line-end="11">Also Yumekawa replaces the word <code>Core</code> (ie: Bitcoin Core). We think it sounds a bit centralized.</li>
+							</ul>
+							<h2 class="code-line" data-line-start=13 data-line-end=15 ><a id="Specifications_13"></a>Specifications</h2>
+							<table class="table table-striped table-bordered">
+							<thead>
+							<tr>
+							<th></th>
+							<th></th>
+							</tr>
+							</thead>
+							<tbody>
+							<tr>
+							<td>Block time:</td>
+							<td><code>5</code> seconds</td>
+							</tr>
+							<tr>
+							<td>Difficulty:</td>
+							<td>SugarShield-N510 (based on Zcash’s modification of Digishield)</td>
+							</tr>
+							<tr>
+							<td>Block reward:</td>
+							<td><code>42.94967296</code> SUGAR</td>
+							</tr>
+							<tr>
+							<td>Halving interval:</td>
+							<td><code>12,500,000</code> Blocks (approx. 2 years)</td>
+							</tr>
+							<tr>
+							<td>Total supply:</td>
+							<td><code>1,073,741,824</code> SUGAR</td>
+							</tr>
+							<tr>
+							<td>PoW algorithm:</td>
+							<td>YespowerSugar (based on Yespower 1.0.1)</td>
+							</tr>
+							<tr>
+							<td>Port:</td>
+							<td>34230 (RPC 34229)</td>
+							</tr>
+							<tr>
+							<td>Premine:</td>
+							<td>None (No ICO, No Presale, No Founder’s rewards)</td>
+							</tr>
+							</tbody>
+							</table>
+							<h2 class="code-line" data-line-start=27 data-line-end=29 ><a id="The_worlds_fastest_PoW_blockchain_27"></a>The world’s fastest PoW blockchain</h2>
+							<ul>
+							<li class="has-line-data" data-line-start="29" data-line-end="33">5 seconds transaction speed
+							<ul>
+							<li class="has-line-data" data-line-start="30" data-line-end="31">120x faster than Bitcoin</li>
+							<li class="has-line-data" data-line-start="31" data-line-end="32">30x faster than Litecoin</li>
+							<li class="has-line-data" data-line-start="32" data-line-end="33">12x faster than Dogecoin</li>
+							</ul>
+							</li>
+							<li class="has-line-data" data-line-start="33" data-line-end="35">Stable transaction time:
+							<ul>
+							<li class="has-line-data" data-line-start="34" data-line-end="35">Even if the hash power suddenly increases, the block time remains 5 seconds. It is against hash attacks.</li>
+							</ul>
+							</li>
+							<li class="has-line-data" data-line-start="35" data-line-end="37">Don’t worry about orphan blocks:
+							<ul>
+							<li class="has-line-data" data-line-start="36" data-line-end="37">According to the testnet results, the average orphan rate is under 3% and no problem occurs.</li>
+							</ul>
+							</li>
+							</ul>
+							<h2 class="code-line" data-line-start=39 data-line-end=41 ><a id="A_better_halving_39"></a>A better halving</h2>
+							<ul>
+							<li class="has-line-data" data-line-start="41" data-line-end="45">Halving is everything:
+							<ul>
+							<li class="has-line-data" data-line-start="42" data-line-end="43">Bitcoin is valuable because its total supply has been strictly limited, unlike traditional currencies.</li>
+							<li class="has-line-data" data-line-start="43" data-line-end="44">This total supply is controlled <em>only</em> by that halving. There is nothing else.</li>
+							<li class="has-line-data" data-line-start="44" data-line-end="45">We made this halving better.</li>
+							</ul>
+							</li>
+							<li class="has-line-data" data-line-start="45" data-line-end="48">Block reward:
+							<ul>
+							<li class="has-line-data" data-line-start="46" data-line-end="47">The block reward should be to a <em>power of two</em>, so that it halves correctly.</li>
+							<li class="has-line-data" data-line-start="47" data-line-end="48">ie) <code>2^32/100000000 = 42.94967296 SUGAR</code></li>
+							</ul>
+							</li>
+							<li class="has-line-data" data-line-start="48" data-line-end="51">Halving schedule:
+							<ul>
+							<li class="has-line-data" data-line-start="49" data-line-end="50">Interval <code>12500000 blocks (5^8*32)</code> which is about 2 years (exactly 1.9818619989852864… years).</li>
+							<li class="has-line-data" data-line-start="50" data-line-end="51">The total number of times halving will occur is <code>33 times</code>, over the span of <code>66 years</code>.</li>
+							</ul>
+							</li>
+							<li class="has-line-data" data-line-start="51" data-line-end="55">Total supply:
+							<ul>
+							<li class="has-line-data" data-line-start="52" data-line-end="53"><code>1073741824 SUGAR</code> in theory, and <code>1073741823.875 SUGAR</code> in actual.</li>
+							<li class="has-line-data" data-line-start="53" data-line-end="54">The difference is <code>0.125 SUGAR</code>. One Satoshi (0.00000001) limitation makes this difference. In addition, this number is meaningful. FYI: <code>1 GB = 1073741824 Byte (2^30)</code>.</li>
+							<li class="has-line-data" data-line-start="54" data-line-end="55">The total supply of Sugarchain is about <code>51 times</code> greater than Bitcoin.</li>
+							</ul>
+							</li>
+							<li class="has-line-data" data-line-start="55" data-line-end="56">Halving Chart: <img src="image/halving_chart.png" alt="Halving Chart"></li>
+							<li class="has-line-data" data-line-start="56" data-line-end="57">Halving Table: <img src="image/halving_table.png" alt="Halving Table"></li>
+							</ul>
+							<h2 class="code-line" data-line-start=59 data-line-end=61 ><a id="oneCPUonevote_59"></a>one-CPU-one-vote</h2>
+							<blockquote>
+							<p class="has-line-data" data-line-start="61" data-line-end="62">“31/Oct/2008 Proof-of-work is essentially one-CPU-one-vote”</p>
+							</blockquote>
+							<p class="has-line-data" data-line-start="63" data-line-end="64">Satoshi Nakamoto talked about the importance of decentralized mining in his whitepaper. We want to create a blockchain that anyone can do mining easily without any entry barriers.</p>
+							<ul>
+							<li class="has-line-data" data-line-start="66" data-line-end="69">CPU mining only
+							<ul>
+							<li class="has-line-data" data-line-start="67" data-line-end="68">YespowerSugar (based on Yespower 1.0.1) is only for Sugarchain, not compatible with other Yespower coins.</li>
+							<li class="has-line-data" data-line-start="68" data-line-end="69">The minimum difficulty (powlimit) is set low enough for two reasons. The first is to handle fast block time; The second is to allow mining on slow CPUs.</li>
+							</ul>
+							</li>
+							<li class="has-line-data" data-line-start="69" data-line-end="72">Mining efficiency:
+							<ul>
+							<li class="has-line-data" data-line-start="70" data-line-end="71">According to the test results, the most efficient is using 8 threads on a single CPU.</li>
+							<li class="has-line-data" data-line-start="71" data-line-end="72">YespowerSugar is more suitable for older CPUs, because it is essentially a multi-threading resistor. Suitable for smartphones and raspberrypi.</li>
+							</ul>
+							</li>
+							<li class="has-line-data" data-line-start="72" data-line-end="73">NO GPU: GPU mining is not possible.</li>
+							<li class="has-line-data" data-line-start="73" data-line-end="74">NO ASIC: ASIC mining is not possible.</li>
+							</ul>
+							<h2 class="code-line" data-line-start=76 data-line-end=78 ><a id="Other_advantages_76"></a>Other advantages</h2>
+							<ul>
+							<li class="has-line-data" data-line-start="78" data-line-end="79">Native segwit (Bech32) address built-in by default: Starting with <code>sugar1q...</code></li>
+							<li class="has-line-data" data-line-start="79" data-line-end="80">Fast blockchain synchronization: Using sha256d in header indexing, the initial synchronization speed is as fast as Litecoin.</li>
+							</ul>
+							<h2 class="code-line" data-line-start=82 data-line-end=84 ><a id="FAQ_82"></a>FAQ</h2>
+							<ul>
+							<li class="has-line-data" data-line-start="84" data-line-end="86">Disk space requirements:
+							<ul>
+							<li class="has-line-data" data-line-start="85" data-line-end="86">Blockchain size growth is around <code>10 MB per 1 day</code> and 3.65 GB per year.</li>
+							</ul>
+							</li>
+							<li class="has-line-data" data-line-start="86" data-line-end="88">Network rules:
+							<ul>
+							<li class="has-line-data" data-line-start="87" data-line-end="88">To prevent fraud and timestamp attacks, nodes should be within <code>70 seconds</code> of accurate internet time, or they will be banned.</li>
+							</ul>
+							</li>
+							<li class="has-line-data" data-line-start="88" data-line-end="90">Selfish mining &amp; time warp attack:
+							<ul>
+							<li class="has-line-data" data-line-start="89" data-line-end="90">Fraud techniques for manipulating timestamps are already known. We use a future time limit (FTL) to prevent this. Blocks that differ <code>60 seconds</code> or more from the current head will be banned. (credit: zawy12)</li>
+							</ul>
+							</li>
+							<li class="has-line-data" data-line-start="90" data-line-end="92">Exchange listing:
+							<ul>
+							<li class="has-line-data" data-line-start="91" data-line-end="92">We do not have a listing plan at this moment. However, it will be discussed in our community and will be listed in the future. If you have any suggestions for exchange websites, contact us.</li>
+							</ul>
+							</li>
+							</ul>
+							<h2 class="code-line" data-line-start=94 data-line-end=96 ><a id="Appendix_94"></a>Appendix</h2>
+							<ul>
+							<li class="has-line-data" data-line-start="96" data-line-end="100">
+							<p class="has-line-data" data-line-start="96" data-line-end="97">Block time vs difficulty at first launching on testnet</p>
+							<ul>
+							<li class="has-line-data" data-line-start="97" data-line-end="98">To keep the block time 5 seconds, SugarShield-N510 adjusts the difficulty level. Unlike the Zcash’s modification version, we use a moving average of <code>510 blocks</code> (about 42.5 minutes). It counts from block 1, an adjustment is made at block 511, and the actual control begins at block 512. <a href="log/time_vs_difficulty-13536.log">(log: time-diff)</a></li>
+							<li class="has-line-data" data-line-start="98" data-line-end="100"><img src="image/time_vs_difficulty.png" alt="Blocktime vs Difficulty"></li>
+							</ul>
+							</li>
+							<li class="has-line-data" data-line-start="100" data-line-end="103">
+							<p class="has-line-data" data-line-start="100" data-line-end="101">Nonce distribution at first launching on testnet</p>
+							<ul>
+							<li class="has-line-data" data-line-start="101" data-line-end="102">The nonce is randomly well distributed. Difficulty changes but no bias. <a href="log/nonce_vs_difficulty-13548.log">(log: nonce-diff)</a></li>
+							<li class="has-line-data" data-line-start="102" data-line-end="103"><img src="image/nonce_vs_difficulty.png" alt="Nonce vs Difficulty"></li>
+							</ul>
+							</li>
+							</ul>
+							<h2 class="code-line" data-line-start=105 data-line-end=107 ><a id="Wallet_105"></a>Wallet</h2>
+							<ul>
+							<li class="has-line-data" data-line-start="107" data-line-end="108">Win64: <a href="https://github.com/sugarchain-project/sugarchain/releases/latest">https://github.com/sugarchain-project/sugarchain/releases/latest</a></li>
+							<li class="has-line-data" data-line-start="108" data-line-end="109">Win32: comming soon</li>
+							<li class="has-line-data" data-line-start="109" data-line-end="110">Linux64: <a href="https://github.com/sugarchain-project/sugarchain/releases/latest">https://github.com/sugarchain-project/sugarchain/releases/latest</a></li>
+							<li class="has-line-data" data-line-start="110" data-line-end="111">Linux32: comming soon</li>
+							<li class="has-line-data" data-line-start="111" data-line-end="112">OSX: <a href="https://github.com/sugarchain-project/sugarchain/releases/latest">https://github.com/sugarchain-project/sugarchain/releases/latest</a></li>
+							<li class="has-line-data" data-line-start="112" data-line-end="113">ARM64: comming soon</li>
+							<li class="has-line-data" data-line-start="113" data-line-end="114">ARM32: comming soon</li>
+							<li class="has-line-data" data-line-start="114" data-line-end="115">Source: comming soon</li>
+							</ul>
+							<h2 class="code-line" data-line-start=117 data-line-end=119 ><a id="Cpuminer_117"></a>Cpuminer</h2>
+							<p class="has-line-data" data-line-start="119" data-line-end="120">Bech32 address is by default and strongly recommended. <code>-t1</code> uses 1 thread. If you want more hash, increase this number.</p>
+							<ul>
+							<li class="has-line-data" data-line-start="135" data-line-end="136"><strong>cpuminer-opt-sugarchain</strong>: <a href="https://github.com/cryptozeny/cpuminer-opt-sugarchain/releases/latest">https://github.com/cryptozeny/cpuminer-opt-sugarchain/releases/latest</a></li>
+							<li class="has-line-data" data-line-start="120" data-line-end="121">Solo mining: Make a file <code>sugarchain.conf</code>, restart your wallet and run cpuminer-opt-sugarchain (RPC=<code>34229</code>, testnet5 RPC=<code>44229</code>, regtest RPC=<code>45339</code>)</li>
+							</ul>
+							<ul>
+							<pre><code class="has-line-data" data-line-start="122" data-line-end="126">server=1<br>rpcuser=username<br>rpcpassword=password<br>rpcallowip=127.0.0.1
+							</code></pre>
+							</ul>
+							<ul>
+							<pre><code class="has-line-data" data-line-start="127" data-line-end="129" class="language-bash">./cpuminer <span class="hljs-operator">-a</span> yespower -o http://localhost:<span class="hljs-number">34229</span> -u username -p password --coinbase-addr=sugar1q... -t1
+							</code></pre>
+							</ul>
+							<ul>
+							<li class="has-line-data" data-line-start="129" data-line-end="130">Pool mining:</li>
+							</ul>
+							<ul>
+							<pre><code class="has-line-data" data-line-start="131" data-line-end="133" class="language-bash">./cpuminer <span class="hljs-operator">-a</span> yespower -o stratum+tcp://POOL_ADDRESS:PORT -u sugar1q... -t1
+							</code></pre>
+							</ul>
+							<ul>
+							<li class="has-line-data" data-line-start="134" data-line-end="135">For mining on Windows, please cheack out our detailed tutorial here: <a href="https://github.com/sugarchain-project/Windows-Mining/wiki/Solo-Mining-for-Windows">https://github.com/sugarchain-project/Windows-Mining/wiki/Solo-Mining-for-Windows</a></li>
+							</ul>
+							<h2 class="code-line" data-line-start=137 data-line-end=139 ><a id="Pools_137"></a>Pools</h2>
+							<p class="has-line-data" data-line-start="139" data-line-end="140">Please contact us if you have a new mining pool.</p>
+							<ul>
+							<li class="has-line-data" data-line-start="140" data-line-end="141">1pool@tokyo: <a href="https://1pool.sugarchain.org/">https://1pool.sugarchain.org</a></li>
+							<li class="has-line-data" data-line-start="141" data-line-end="142">2pool@tokyo: <a href="https://2pool.sugarchain.org/">https://2pool.sugarchain.org</a></li>
+							<li class="has-line-data" data-line-start="142" data-line-end="143">52hash@china: <a href="http://sugar.52hash.com/">http://sugar.52hash.com</a></li>
+							<li class="has-line-data" data-line-start="143" data-line-end="144">rplant@moscow: <a href="https://pool.rplant.xyz/">https://pool.rplant.xyz</a></li>
+							<li class="has-line-data" data-line-start="144" data-line-end="145">happysensor@korea: <a href="http://pool.happysensor.xyz/">http://pool.happysensor.xyz</a></li>
+							<li class="has-line-data" data-line-start="145" data-line-end="146">hashpex@USA: <a href="http://hashpex.com/">http://hashpex.com</a></li>
+							<li class="has-line-data" data-line-start="146" data-line-end="147">skypool@global: <a href="https://sugar.skypool.co/">https://sugar.skypool.co</a></li>
+							</ul>
+							<h2 class="code-line" data-line-start=147 data-line-end=149 ><a id="Explorer_147"></a>Explorer</h2>
+							<ul>
+							<li class="has-line-data" data-line-start="149" data-line-end="150">1explorer: <a href="https://1explorer.sugarchain.org/">https://1explorer.sugarchain.org</a></li>
+							<li class="has-line-data" data-line-start="150" data-line-end="151">2explorer: comming soon</li>
+							<li class="has-line-data" data-line-start="151" data-line-end="152">trezor blockbook: <a href="https://sugarchain-blockbook.ilmango.work/blocks">https://sugarchain-blockbook.ilmango.work/blocks</a></li>
+							</ul>
+							<h2 class="code-line" data-line-start=154 data-line-end=156 ><a id="Exchanges_154"></a>Exchanges</h2>
+							<ul>
+							<li class="has-line-data" data-line-start="156" data-line-end="157">ex4ange (by DobroFenix): <a href="https://ex4ange.org/?SUGAR-DOGE">https://ex4ange.org/?SUGAR-DOGE</a></li>
+							</ul>
+							<h2 class="code-line" data-line-start=170 data-line-end=172 ><a id="Community_170"></a>Community</h2>
+							<ul>
+							<li class="has-line-data" data-line-start="172" data-line-end="173">Discord: <a href="https://discord.gg/5fvpTdk">https://discord.gg/5fvpTdk</a></li>
+							<li class="has-line-data" data-line-start="173" data-line-end="174">Forum: <a href="https://forum.sugarchain.org">https://forum.sugarchain.org</a></li>
+							<li class="has-line-data" data-line-start="173" data-line-end="174">Bitcointalk: <a href="https://bitcointalk.org/index.php?topic=5177722.0">https://bitcointalk.org/index.php?topic=5177722.0</a></li>
+							<li class="has-line-data" data-line-start="174" data-line-end="175">Telegram: <a href="https://t.me/sugarchain">https://t.me/sugarchain</a></li>
+							<li class="has-line-data" data-line-start="176" data-line-end="177">Twitter: <a href="https://twitter.com/sugarchain_dev">https://twitter.com/sugarchain_dev</a></li>
+							</ul>
+							<h2 class="code-line" data-line-start=159 data-line-end=161 ><a id="License_159"></a>License</h2>
+							<p class="has-line-data" data-line-start="161" data-line-end="163">Sugarchain Yumekawa is released under the terms of the MIT license. See <a href="COPYING">COPYING</a> for more<br>
+							information or see <a href="https://opensource.org/licenses/MIT">https://opensource.org/licenses/MIT</a>.</p>
+							<ul>
+							<li class="has-line-data" data-line-start="163" data-line-end="164">Copyright © 2009-2010 Satoshi Nakamoto</li>
+							<li class="has-line-data" data-line-start="164" data-line-end="165">Copyright © 2009-2018 The Bitcoin Core developers</li>
+							<li class="has-line-data" data-line-start="165" data-line-end="166">Copyright © 2013-2019 Alexander Peslyak - Yespower 1.0.1</li>
+							<li class="has-line-data" data-line-start="166" data-line-end="167">Copyright © 2016-2018 The Zcash developers - DigiShieldZEC</li>
+							<li class="has-line-data" data-line-start="167" data-line-end="168">Copyright © 2018-2019 The Sugarchain developers</li>
+							</ul>
+
+
+							<!-- END - WEBSITE -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer id="contacts" class="text-center">
+			If you are interested in the Sugarchain project, come to our community.
+			<br>
+			<a href="https://discord.gg/5fvpTdk" target="_blank" rel="nofollow">Discord</a>
+			| 
+			<a href="https://forum.sugarchain.org" target="_blank" rel="nofollow">Forum</a>
+			| 
+			<a href="https://bitcointalk.org/index.php?topic=5177722.0" target="_blank" rel="nofollow">Bitcointalk</a>
+			| 
+			<a href="https://t.me/sugarchain" target="_blank" rel="nofollow">Telegram</a>
+			| 
+			<a href="https://twitter.com/sugarchain_dev" target="_blank" rel="nofollow">Twitter</a>
+		</footer>
+
+		<script>
+			var height_start = 0
+
+			function stats(first = false) {
+				Promise.resolve($.ajax({
+					url: "https://volbil.com/api/sugar.php",
+				})).then(function(data) {
+					$("#height .current").attr("href", "https://1explorer.sugarchain.org/block/" + data["hash"])
+					$("#height .current").text(data["height"])
+					if (first) {
+						height_start = data["height"]
+						$("#height .loading").addClass("d-none")
+						$("#height .current").removeClass("d-none")
+					} else {
+						$("#height .passed").text(data["height"] - height_start)
+					}
+				})
+			}
+
+			$(document).ready(function($) {
+				$(".scroll").click(function(event){	 
+					event.preventDefault();
+					$("html, body").animate({scrollTop: $(this.hash).offset().top}, 750);
+				});
+			});
+
+			$(document).ready(function() {
+				stats(true)
+				window.setInterval(function() {
+					stats()
+				}, 4000);
+			})
+		</script>
+	</body>
+</html>
