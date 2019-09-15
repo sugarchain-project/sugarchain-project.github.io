@@ -310,16 +310,13 @@
 							<ul>
 							<li class="has-line-data" data-line-start="123" data-line-end="124">Make a file <code>sugarchain.conf</code></li>
 							</ul>
-							<pre><code class="has-line-data" data-line-start="125" data-line-end="130">server=1
-							rpcuser=username
-							rpcpassword=password
-							rpcallowip=127.0.0.1
+							<pre><code class="has-line-data" data-line-start="125" data-line-end="130">&#9;server=1<br>&#9;rpcuser=username<br>&#9;rpcpassword=password<br>&#9;rpcallowip=127.0.0.1
 							</code></pre>
 							<ul>
 							<li class="has-line-data" data-line-start="130" data-line-end="131">Restart your Yumekawa wallet</li>
 							<li class="has-line-data" data-line-start="131" data-line-end="132">Run cpuminer-opt-sugarchain (RPC=<code>34229</code>, testnet5 RPC=<code>44229</code>, regtest RPC=<code>45339</code>)</li>
 							</ul>
-							<pre><code class="has-line-data" data-line-start="133" data-line-end="135" class="language-bash">./cpuminer <span class="hljs-operator">-a</span> yespower -o http://localhost:<span class="hljs-number">34229</span> --no-longpoll -u username -p password --coinbase-addr=sugar1q... -t1
+							<pre><code class="has-line-data" data-line-start="133" data-line-end="135" class="language-bash">&#9;./cpuminer <span class="hljs-operator">-a</span> yespower -o http://localhost:<span class="hljs-number">34229</span> --no-longpoll -u username -p password --coinbase-addr=sugar1q... -t1
 							</code></pre>
 							<ul>
 							<li class="has-line-data" data-line-start="135" data-line-end="139">Detailed solo mining tutorials:
@@ -333,7 +330,7 @@
 							</li>
 							<li class="has-line-data" data-line-start="139" data-line-end="140">Pool mining:</li>
 							</ul>
-							<pre><code class="has-line-data" data-line-start="141" data-line-end="143" class="language-bash">./cpuminer <span class="hljs-operator">-a</span> yespower -o stratum+tcp://POOL_ADDRESS:PORT -u sugar1q... -t1
+							<pre><code class="has-line-data" data-line-start="141" data-line-end="143" class="language-bash">&#9;./cpuminer <span class="hljs-operator">-a</span> yespower -o stratum+tcp://POOL_ADDRESS:PORT -u sugar1q... -t1
 							</code></pre>
 							<h2 class="code-line" data-line-start=145 data-line-end=147 ><a id="Pools_145"></a>Pools</h2>
 							<p class="has-line-data" data-line-start="147" data-line-end="148">Please contact us if you have a new mining pool.</p>
