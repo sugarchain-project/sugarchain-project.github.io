@@ -1,6 +1,6 @@
 Sugarchain
 ==========
-one-CPU-one-vote, the world's fastest PoW blockchain
+one-CPU-one-vote, the world's fastest PoW blockchain<br/>
 https://sugarchain.org
 
 
@@ -120,21 +120,27 @@ Cpuminer
 --------
 Bech32 address is by default and strongly recommended. `-t1` uses 1 thread. If you want more hash, increase this number.
 - **cpuminer-opt-sugarchain**: https://github.com/cryptozeny/cpuminer-opt-sugarchain/releases/latest
-- Solo mining: Make a file `sugarchain.conf`, restart your wallet and run cpuminer-opt-sugarchain (RPC=`34229`, testnet5 RPC=`44229`, regtest RPC=`45339`)
-```
-server=1
-rpcuser=username
-rpcpassword=password
-rpcallowip=127.0.0.1
-```
-```bash
-./cpuminer -a yespower -o http://localhost:34229 -u username -p password --coinbase-addr=sugar1q... -t1
-```
+- Solo mining: We strongly recommend solo mining for decentralization.
+  * Make a file `sugarchain.conf`
+  ```
+  server=1
+  rpcuser=username
+  rpcpassword=password
+  rpcallowip=127.0.0.1
+  ```
+  * Restart your Yumekawa wallet
+  * Run cpuminer-opt-sugarchain (RPC=`34229`, testnet5 RPC=`44229`, regtest RPC=`45339`)
+  ```bash
+  ./cpuminer -a yespower -o http://localhost:34229 --no-longpoll -u username -p password --coinbase-addr=sugar1q... -t1
+  ```
+  * Detailed solo mining tutorials:
+    - Windows: https://forum.sugarchain.org/d/9-solo-mining-on-windows
+    - Linux: https://forum.sugarchain.org/d/20-solo-mining-on-linux
+    - OSX: comming soon
 - Pool mining:
 ```bash
 ./cpuminer -a yespower -o stratum+tcp://POOL_ADDRESS:PORT -u sugar1q... -t1
 ```
-- For mining on Windows, please check out our detailed tutorial here: https://github.com/sugarchain-project/Windows-Mining/wiki/Solo-Mining-for-Windows
 
 
 Pools
@@ -158,7 +164,9 @@ Explorer
 
 Exchanges
 ---------
-- ex4ange (by DobroFenix): https://ex4ange.org/?SUGAR-DOGE
+- EX4ANGE (by DobroFenix & Tesla)
+  * SUGAR-DOGE: https://ex4ange.org/?SUGAR-DOGE
+  * SUGAR-BTC: https://ex4ange.org/?SUGAR-BTC
 
 
 Community
