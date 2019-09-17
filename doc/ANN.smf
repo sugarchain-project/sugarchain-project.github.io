@@ -1,84 +1,105 @@
-Sugarchain
-==========
+[center]
+[size=20pt][b]Sugarchain[/b][/size]
 one-CPU-one-vote, the world's fastest PoW blockchain  
 https://sugarchain.org
+[/center]
 
 
-The meaning of Yumekawa
------------------------
-Sugarchain's first node software is called `Yumekawa (夢川)`. It can be translated in some ways.
- - "Yume (夢)" means dream and "Kawa (川)" means river. So it's `Dream River` in japanese.
- - The second letter "Kawa" stands for "Kawaii (可愛い)". In this case the meaning is `Dreamy Cute`.
- - Also Yumekawa replaces the word `Core` (ie: Bitcoin Core). We think it sounds a bit centralized.
+[center]
+[size=15pt]KICK OFF[/size]
+[color=red][b]2019/08/24 15:00 UTC[/b][/color]
+Saturday, 24 August 2019, 15:00:00 (UTC time)
+https://www.timeanddate.com/countdown/launch?iso=20190824T15&p0=1440&msg=%5BANN%5D+Sugarchain+%5BCPU%5D+Launching+2019%2F08%2F24+15%3A00+UTC&font=sanserif
+[/center]
 
 
-Specifications
---------------
-| | |
-------------|------------
-Block time: | `5` seconds
-Difficulty: | SugarShield-N510 (based on Zcash's modification of Digishield)
-Block reward: | `42.94967296` SUGAR
-Halving interval: | `12,500,000` Blocks (approx. 2 years)
-Total supply: | `1,073,741,824` SUGAR
-PoW algorithm: | YespowerSugar (based on Yespower 1.0.1)
-Port: | 34230 (RPC 34229)
-Premine: | None (No ICO, No Presale, No Founder's rewards)
+[size=15pt]The meaning of Yumekawa[/size]
+Sugarchain's first node software is called [b]Yumekawa (夢川)[/b]. It can be translated in some ways.
+[list]
+[li]"Yume (夢)" means dream and "Kawa (川)" means river. So it's "Dream River" in japanese.[/li]
+[li]The second letter "Kawa" stands for "Kawaii (可愛い)". In this case the meaning is "Dreamy Cute".[/li]
+[li]Also Yumekawa replaces the word [i]Core[/i] (ie: Bitcoin Core). We think it sounds a bit centralized.[/li]
+[/list]
 
 
-The world's fastest PoW blockchain
-----------------------------------
-- 5 seconds transaction speed
-  * 120x faster than Bitcoin
-  * 30x faster than Litecoin
-  * 12x faster than Dogecoin
-- Stable transaction time:
-  * Even if the hash power suddenly increases, the block time remains 5 seconds. It is against hash attacks.
-- Don't worry about orphan blocks: 
-  * According to the testnet results, the average orphan rate is under 3% and no problem occurs.
+[size=15pt]Specifications[/size]
+[list]
+[li]Block time: [b]5 seconds[/b][/li]
+[li]Difficulty: [b]SugarShield-N510[/b] (based on Zcash's modification of Digishield)[/li]
+[li]Block reward: [b]42.94967296[/b] SUGAR[/li]
+[li]Halving interval: [b]12,500,000[/b] Blocks (approx. 2 years)[/li]
+[li]Total supply: [b]1,073,741,824[/b] SUGAR[/li]
+[li]PoW algorithm: [b]YespowerSugar[/b] (based on Yespower 1.0.1)[/li]
+[li]Port: [b]34230[/b] (RPC 34229)[/li]
+[li]Premine: [b]None[/b] (No ICO, No Presale, No Founder's Rewards)[/li]
+[/list]
 
 
-A better halving
------------------------------
-- Halving is everything: 
-  * Bitcoin is valuable because its total supply has been strictly limited, unlike traditional currencies. 
-  * This total supply is controlled *only* by that halving. There is nothing else.
-  * We made this halving better.
-- Block reward: 
-  * The block reward should be to a *power of two*, so that it halves correctly.
-  * ie) `2^32/100000000 = 42.94967296 SUGAR`
-- Halving schedule: 
-  * Interval `12500000 blocks (5^8*32)` which is about 2 years (exactly 1.9818619989852864... years).
-  * The total number of times halving will occur is `33 times`, over the span of `66 years`.
-- Total supply: 
-  * `1073741824 SUGAR` in theory, and `1073741823.875 SUGAR` in actual.
-  * The difference is `0.125 SUGAR`. One Satoshi (0.00000001) limitation makes this difference. In addition, this number is meaningful. FYI: `1 GB = 1073741824 Byte (2^30)`.
-  * The total supply of Sugarchain is about `51 times` greater than Bitcoin.
-- Halving Chart: ![Halving Chart](https://github.com/sugarchain-project/website/blob/master/image/halving_chart.png)
-- Halving Table: ![Halving Table](https://github.com/sugarchain-project/website/blob/master/image/halving_table.png)
+[size=15pt]The world's fastest PoW blockchain[/size]
+[list]
+[li]5 seconds transaction speed:[list]
+[li]120x faster than Bitcoin[/li]
+[li]30x faster than Litecoin[/li]
+[li]12x faster than Dogecoin[/li][/list][/li]
+
+[li]Stable transaction time:[list]
+[li]Even if the hash power suddenly increases, the block time remains 5 seconds. It is against hash attacks.[/li][/list][/li]
+
+[li]Don't worry about orphan blocks:[list]
+[li]According to the testnet results, the average orphan rate is under 3% and no problem occurs.[/li][/list][/li]
+[/list]
 
 
-one-CPU-one-vote
-----------------
-> "31/Oct/2008 Proof-of-work is essentially one-CPU-one-vote"
+[size=15pt]A better halving[/size]
+[list]
+[li]Halving is everything:[list]
+[li]Bitcoin is valuable because its total supply has been strictly limited, unlike traditional currencies.[/li]
+[li]This total supply is controlled [i]only[/i] by that halving. There is nothing else.[/li]
+[li]We made this halving better.[/li][/list][/li]
 
+[li]Block reward:[list]
+[li]The block reward should be to a [i]power of two[/i], so that it halves correctly.[/li]
+[li]ie) [b]2^32/100000000 = 42.94967296 SUGAR[/b][/li][/list][/li]
+
+[li]Halving schedule:[list] 
+[li]Interval [b]12500000 blocks (5^8*32)[/b] which is about 2 years (exactly 1.9818619989852864... years).[/li]
+[li]The total number of times halving will occur is [b]33 times[/b], over the span of [b]66 years[/b].[/li][/list][/li]
+
+[li]Total supply:[list]
+[li][b]1073741824 SUGAR[/b] in theory, and [b]1073741823.875 SUGAR[/b] in actual.[/li]
+[li]The difference is [b]0.125 SUGAR[/b]. One Satoshi (0.00000001) limitation makes this difference. In addition, this number is meaningful. FYI: [b]1 GB = 1073741824 Byte (2^30)[/b].[/li]
+[li]The total supply of Sugarchain is about [b]51 times[/b] greater than Bitcoin.[/li][/list][/li]
+
+[li]Halving Chart:[list]
+[li]![Halving Chart](https://github.com/sugarchain-project/website/blob/master/image/halving_chart.png)[/li][/list][/li]
+
+[li]Halving Table:[list]
+[li]![Halving Table](https://github.com/sugarchain-project/website/blob/master/image/halving_table.png)[/li][/list][/li]
+[/list]
+
+
+[size=15pt]one-CPU-one-vote[/size]
+[quote]"31/Oct/2008 Proof-of-work is essentially one-CPU-one-vote"[/quote]
 Satoshi Nakamoto talked about the importance of decentralized mining in his whitepaper. We want to create a blockchain that anyone can do mining easily without any entry barriers.
 
+[li]CPU mining only:[list]
+[li]YespowerSugar (based on Yespower 1.0.1) is only for Sugarchain, not compatible with other Yespower coins.[/li]
+[li]The minimum difficulty (powlimit) is set low enough for two reasons. The first is to handle fast block time; The second is to allow mining on slow CPUs.[/li][/list][/li]
 
-- CPU mining only
-  * YespowerSugar (based on Yespower 1.0.1) is only for Sugarchain, not compatible with other Yespower coins.
-  * The minimum difficulty (powlimit) is set low enough for two reasons. The first is to handle fast block time; The second is to allow mining on slow CPUs.
-- Mining efficiency: 
-  * According to the test results, the most efficient is using 8 threads on a single CPU.
-  * YespowerSugar is more suitable for older CPUs, because it is essentially a multi-threading resistor. Suitable for smartphones and raspberrypi.
-- NO GPU: GPU mining is not possible.
-- NO ASIC: ASIC mining is not possible.
+[li]Mining efficiency:[list]
+[li]According to the test results, the most efficient is using 8 threads on a single CPU.[/li]
+[li]YespowerSugar is more suitable for older CPUs, because it is essentially a multi-threading resistor. Suitable for smartphones and raspberrypi.[/li][/list][/li]
+
+[li]NO GPU: GPU mining is not possible.[/li]
+[li]NO ASIC: ASIC mining is not possible.[/li]
+[/list]
 
 
-Other advantages
-----------------
-- Native segwit (Bech32) address built-in by default: Starting with `sugar1q...`
-- Fast blockchain synchronization: Using sha256d in header indexing, the initial synchronization speed is as fast as Litecoin.
+[size=15pt]Other advantages[/size]
+[list]
+[li]Native segwit (Bech32) address built-in by default: Starting with [b]sugar1q...[/b][/li]
+[li]Fast blockchain synchronization: Using sha256d in header indexing, the initial synchronization speed is as fast as Litecoin.[/li]
+[/list]
 
 
 FAQ
