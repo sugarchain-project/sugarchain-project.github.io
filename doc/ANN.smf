@@ -1,4 +1,4 @@
-[list][center]
+[center]
 [size=20pt][b]Sugarchain[/b][/size]
 one-CPU-one-vote, the world's fastest PoW blockchain  
 https://sugarchain.org
@@ -16,9 +16,9 @@ https://www.timeanddate.com/countdown/launch?iso=20190824T15&p0=1440&msg=%5BANN%
 [size=15pt]The meaning of Yumekawa[/size]
 Sugarchain's first node software is called [b]Yumekawa (夢川)[/b]. It can be translated in some ways.
 [list]
-[li]"Yume (夢)" means dream and "Kawa (川)" means river. So it's "Dream River" in japanese.[/li]
-[li]The second letter "Kawa" stands for "Kawaii (可愛い)". In this case the meaning is "Dreamy Cute".[/li]
-[li]Also Yumekawa replaces the word [i]Core[/i] (ie: Bitcoin Core). We think it sounds a bit centralized.[/li]
+[li]"Yume (夢)" means dream and "Kawa (川)" means river. So it's [b]Dream River[/b] in japanese.[/li]
+[li]The second letter "Kawa" stands for "Kawaii (可愛い)". In this case the meaning is [b]Dreamy Cute[/b].[/li]
+[li]Also Yumekawa replaces the word [b]Core[/b] (ie: Bitcoin Core). We think it sounds a bit centralized.[/li]
 [/list]
 
 
@@ -82,7 +82,8 @@ Sugarchain's first node software is called [b]Yumekawa (夢川)[/b]. It can be t
 [quote]"31/Oct/2008 Proof-of-work is essentially one-CPU-one-vote"[/quote]
 Satoshi Nakamoto talked about the importance of decentralized mining in his whitepaper. We want to create a blockchain that anyone can do mining easily without any entry barriers.
 
-[list][li]CPU mining only:[list]
+[list]
+[li]CPU mining only:[list]
 [li]YespowerSugar (based on Yespower 1.0.1) is only for Sugarchain, not compatible with other Yespower coins.[/li]
 [li]The minimum difficulty (powlimit) is set low enough for two reasons. The first is to handle fast block time; The second is to allow mining on slow CPUs.[/li][/list][/li]
 
@@ -131,14 +132,16 @@ Satoshi Nakamoto talked about the importance of decentralized mining in his whit
 
 
 [size=15pt]Wallet[/size]
-[list][li]Win64: https://github.com/sugarchain-project/sugarchain/releases/latest[/li]
+[list]
+[li]Win64: https://github.com/sugarchain-project/sugarchain/releases/latest[/li]
 [li]Win32: comming soon[/li]
 [li]Linux64: https://github.com/sugarchain-project/sugarchain/releases/latest[/li]
 [li]Linux32: comming soon[/li]
 [li]OSX: https://github.com/sugarchain-project/sugarchain/releases/latest[/li]
 [li]ARM64: comming soon[/li]
 [li]ARM32: comming soon[/li]
-[li]Source: comming soon[/li][/list]
+[li]Source: comming soon[/li]
+[/list]
 
 
 [size=15pt]Cpuminer[/size]
@@ -164,9 +167,11 @@ rpcallowip=127.0.0.1[/tt][/quote][/li]
 [li]Windows: https://forum.sugarchain.org/d/9-solo-mining-on-windows[/li]
 [li]Linux: https://forum.sugarchain.org/d/20-solo-mining-on-linux[/li]
 [li]OSX: comming soon[/li][/list][/li]
+[/list][/li]
 
 [li]Pool mining:
-[quote][tt]./cpuminer -a yespower -o stratum+tcp://POOL_ADDRESS:PORT -u sugar1q... -t1[/tt][/quote][/li][/list]
+[quote][tt]./cpuminer -a yespower -o stratum+tcp://POOL_ADDRESS:PORT -u sugar1q... -t1[/tt][/quote][/li]
+[/list]
 
 
 [size=15pt]Pools[/size]
@@ -197,22 +202,11 @@ Please contact us if you have a new mining pool.
 [/list]
 
 
-Community
----------
-- Discord: https://discord.gg/5fvpTdk
-- Forum: https://forum.sugarchain.org
-- Bitcointalk: https://bitcointalk.org/index.php?topic=5177722.0
-- Telegram: https://t.me/sugarchain
-- Twitter: https://twitter.com/sugarchain_dev
-
-
-License
--------
-Sugarchain Yumekawa is released under the terms of the MIT license. See [COPYING](COPYING) for more
-information or see https://opensource.org/licenses/MIT.
-- Copyright (c) 2009-2010 Satoshi Nakamoto
-- Copyright (c) 2009-2018 The Bitcoin Core developers
-- Copyright (c) 2013-2019 Alexander Peslyak - Yespower 1.0.1
-- Copyright (c) 2016-2018 The Zcash developers - DigiShieldZEC
-- Copyright (c) 2018-2019 The Sugarchain developers
-[/list][/list][/list][/list]
+[size=15pt]Community[/size]
+[list]
+[li]Discord: https://discord.gg/5fvpTdk[/li]
+[li]Forum: https://forum.sugarchain.org[/li]
+[li]Bitcointalk: https://bitcointalk.org/index.php?topic=5177722.0[/li]
+[li]Telegram: https://t.me/sugarchain[/li]
+[li]Twitter: https://twitter.com/sugarchain_dev[/li]
+[/list]
