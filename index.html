@@ -415,16 +415,16 @@
 
 			function stats(first = false) {
 				Promise.resolve($.ajax({
-					url: "https://volbil.com/api/sugar.php",
+					url: "https://api.sugarchain.org/info",
 				})).then(function(data) {
-					$("#height .current").attr("href", "https://1explorer.sugarchain.org/block/" + data["hash"])
-					$("#height .current").text(data["height"])
+					$("#height .current").attr("href", "https://1explorer.sugarchain.org/block/" + data["result"]["bestblockhash"])
+					$("#height .current").text(data["result"]["blocks"])
 					if (first) {
-						height_start = data["height"]
+						height_start = data["result"]["blocks"]
 						$("#height .loading").addClass("d-none")
 						$("#height .current").removeClass("d-none")
 					} else {
-						$("#height .passed").text(data["height"] - height_start)
+						$("#height .passed").text(data["result"]["blocks"] - height_start)
 					}
 				})
 			}
