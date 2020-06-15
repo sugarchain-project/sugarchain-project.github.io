@@ -2106,7 +2106,7 @@ dl.mempool-histogram .bar:before {
 }
 
 .jumbotron-fluid {
-    background-image: linear-gradient(-90deg, rgba(84, 103, 124, 1) 0%, rgba(29, 72, 111, 1) 18%, rgba(24, 53, 80, 1) 36%, rgba(29, 37, 48, 1) 58%, rgba(14, 16, 17, 1) 100%);
+    background-image: linear-gradient(-90deg, rgba(13, 141, 119, 1) 0%, rgba(17, 103, 97, 1) 16%, rgba(25, 68, 74, 1) 35%, rgba(29, 42, 48, 1) 57%, rgba(14, 16, 17, 1) 100%);
 }
 
 .search-bar {
@@ -2124,5 +2124,5 @@ dl.mempool-histogram .bar:before {
 }
 
 .navbar {
-    background-image: linear-gradient(-90deg, rgba(84, 103, 124, 1) 0%, rgba(29, 72, 111, 1) 18%, rgba(24, 53, 80, 1) 36%, rgba(29, 37, 48, 1) 58%, rgba(14, 16, 17, 1) 100%);
+    background-image: linear-gradient(-90deg, rgba(13, 141, 119, 1) 0%, rgba(17, 103, 97, 1) 16%, rgba(25, 68, 74, 1) 35%, rgba(29, 42, 48, 1) 57%, rgba(14, 16, 17, 1) 100%);
 }
