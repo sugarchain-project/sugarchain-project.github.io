@@ -1,0 +1,50 @@
+{
+  "_args": [
+    [
+      "typeface-inconsolata@0.0.72",
+      "/home/ak/git/SUGAR/EXPLORER/esplora"
+    ]
+  ],
+  "_from": "typeface-inconsolata@0.0.72",
+  "_id": "typeface-inconsolata@0.0.72",
+  "_inBundle": false,
+  "_integrity": "sha512-ITFhcI2ANWmSEPVgQgPJHh6RyiCf1pnkRXj1VxjsxfSwRrXFGgGITRJV+HxW7kTRDx+3/6RReT2/SWsMPqJaTA==",
+  "_location": "/typeface-inconsolata",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "typeface-inconsolata@0.0.72",
+    "name": "typeface-inconsolata",
+    "escapedName": "typeface-inconsolata",
+    "rawSpec": "0.0.72",
+    "saveSpec": null,
+    "fetchSpec": "0.0.72"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/typeface-inconsolata/-/typeface-inconsolata-0.0.72.tgz",
+  "_spec": "0.0.72",
+  "_where": "/home/ak/git/SUGAR/EXPLORER/esplora",
+  "author": {
+    "name": "Kyle Mathews",
+    "email": "mathews.kyle@gmail.com"
+  },
+  "description": "Inconsolata typeface",
+  "keywords": [
+    "typeface",
+    "font",
+    "font family",
+    "google fonts",
+    "inconsolata"
+  ],
+  "license": "MIT",
+  "main": "index.css",
+  "name": "typeface-inconsolata",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KyleAMathews/typefaces/tree/master/packages/inconsolata"
+  },
+  "version": "0.0.72"
+}
