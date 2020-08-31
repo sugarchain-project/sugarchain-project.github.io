@@ -68,7 +68,7 @@ Native SegWit (Bech32)
 Better halving & Exact supply
 -----------------------------
 Halving is everything about limiting the total supply. Bitcoin is valuable because its total supply has been strictly limited, unlike traditional currencies. This total supply is controlled only by that halving. There is nothing else. We made this halving better.
-- The formula of Sugarchain’s total money supply
+- The formula of Sugarchain’s total money supply (in satoshis)
   <img src="image/supply_formula.png" width="25%">
 - Block reward:
   * The block reward should be to a ***power of two***, so that it halves correctly.
