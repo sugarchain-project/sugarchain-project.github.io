@@ -203,6 +203,7 @@ Please contact us if you have a new mining pool.
 - pool.work@china: http://sugar.pool.work:8000
 - cpu-pool@russia: http://cpu-pool.com/
 - xpoolx@france: https://xpoolx.com
+- nendly@usa: https://sugar.nendly.com/
 
 
 Explorer
