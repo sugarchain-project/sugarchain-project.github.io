@@ -107,6 +107,21 @@ Satoshi Nakamoto talked about the importance of decentralized mining in his whit
 - NO ASIC: ASIC mining is not possible.
 
 
+Difficulty Adjustment Algorithm (DAA)
+-------------------------------------
+SugarShield-N510 is based on Zcash's modification of Digishield. Unlike the Zcash’s modification version, we use a moving average of `510 blocks (approx. 42.5 minutes)`. To keep the block time 5 seconds, SugarShield-N510 adjusts the difficulty level.
+- The formula of SugarShield-N510
+  <img src="image/sugarshield_formula.png" width="50%">
+
+- Block time vs difficulty at first launching on testnet<br/>
+  ![time_vs_difficulty.png](image/time_vs_difficulty.png)
+  * It counts from block 1, an adjustment is made at block 511, and the actual control begins at block 512. [(log: time-diff)](https://raw.githubusercontent.com/sugarchain-project/sugarchain-project.github.io/master/log/time_vs_difficulty-13536.log)
+
+- Nonce distribution at first launching on testnet<br/>
+  ![nonce_vs_difficulty.png](image/nonce_vs_difficulty.png)
+  * The nonce is randomly well distributed. Difficulty changes but no bias. [(log: nonce-diff)](https://raw.githubusercontent.com/sugarchain-project/sugarchain-project.github.io/master/log/nonce_vs_difficulty-13548.log)
+
+
 FAQ
 ---
 - Disk space requirements:
@@ -117,24 +132,6 @@ FAQ
   * Fraud techniques for manipulating timestamps are already known. We use a future time limit (FTL) to prevent this. Blocks that differ `60 seconds` or more from the current head will be banned. (credit: zawy12)
 - Header indexing:
   * Using sha256d in header indexing, the initial synchronization speed is as fast as Litecoin.
-
-
-Difficulty Adjustment Algorithm (DAA)
--------------------------------------
-SugarShield-N510 is based on Zcash's modification of Digishield. Unlike the Zcash’s modification version, we use a moving average of `510 blocks (approx. 42.5 minutes)`. To keep the block time 5 seconds, SugarShield-N510 adjusts the difficulty level.
-- The formula of SugarShield-N510
-  <img src="image/sugarshield_formula.png" width="50%">
-
-- Block time vs difficulty at first launching on testnet<br/>
-  ![time_vs_difficulty.png](image/time_vs_difficulty.png)
-  * It counts from block 1, an adjustment is made at block 511, and the actual control begins at block 512.
-  * [(log: time-diff)](https://raw.githubusercontent.com/sugarchain-project/sugarchain-project.github.io/master/log/time_vs_difficulty-13536.log)
-
-- Nonce distribution at first launching on testnet<br/>
-  ![nonce_vs_difficulty.png](image/nonce_vs_difficulty.png)
-  * The nonce is randomly well distributed.
-  * Difficulty changes but no bias.
-  * [(log: nonce-diff)](https://raw.githubusercontent.com/sugarchain-project/sugarchain-project.github.io/master/log/nonce_vs_difficulty-13548.log)
 
 
 Wallet
