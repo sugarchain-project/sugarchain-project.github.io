@@ -159,9 +159,9 @@ CPUMINER
 --------
 Native SegWit (Bech32) address is by default and strongly recommended. `-t1` uses 1 thread. If you want more hash, increase this number.
 
-**cpuminer-opt-sugarchain (Win64 and Linux64)**: https://github.com/cryptozeny/cpuminer-opt-sugarchain/releases/latest
+**cpuminer-opt-sugarchain (Win64 and Linux64)** ![GitHub All Releases](https://img.shields.io/github/downloads/cryptozeny/cpuminer-opt-sugarchain/total) : https://github.com/cryptozeny/cpuminer-opt-sugarchain/releases/latest
 
-**sugarmaker (BETA: All platforms)**: https://github.com/decryp2kanon/sugarmaker/releases/latest
+**sugarmaker (BETA: All platforms)** ![GitHub All Releases](https://img.shields.io/github/downloads/decryp2kanon/sugarmaker/total) : https://github.com/decryp2kanon/sugarmaker/releases/latest
 - Pool mining:
   ```bash
   ./cpuminer -a sugarchain -o stratum+tcp://1pool.sugarchain.org:3333 -u sugar1qv0ahzfa2ssu47wes89390sl0jz6g05h0267u8g -t1
