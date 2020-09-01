@@ -21,11 +21,14 @@ TL;DR
 
 Introduction
 ------------
-Sugarchain is a decentralized, peer-to-peer (P2P) digital currency and payment network supported by an open-source blockchain protocol, launched by Zenny Kim and Volodymyr Biloshytskyi on August 24, 2019. Through Sugarchain, users can make payments to anyone in the world at the highest speeds ***in 5 seconds***, and the lowest costs compared to other digital assets. For example, the transaction speed of Sugarchain is 120 times faster than Bitcoin, 30 times faster than Litecoin and 12 times faster than Dogecoin.
+Sugarchain is a decentralized, peer-to-peer (P2P) digital currency and payment network supported by an open-source blockchain protocol, launched by Zenny Kim and Volodymyr Biloshytskyi on August 24, 2019 <sup>[[1]](#bitcointalk)</sup>. Through Sugarchain, users can make payments to anyone in the world at the highest speeds ***in 5 seconds***, and the lowest costs compared to other digital assets. For example, the transaction speed of Sugarchain is 120 times faster than Bitcoin, 30 times faster than Litecoin and 12 times faster than Dogecoin.
 
 The Sugarchain Project emerged as an alternative solution to Bitcoin in light of early concerns over Bitcoin’s wait times in confirming block transactions and rounding errors in block reward halving. By introducing minor technical modifications to the original Bitcoin source code, Sugarchain allowed for much faster transaction speeds, even lower processing fees and has ***the most accurate block reward halving and total supply*** than any other digital asset, including Bitcoin. Sugarchain also launched following the ***one-CPU-one-vote*** idea proposed by Satoshi Nakamoto himself, thus making YespowerSugar GPU and ASIC resistant. It has also launched as being the first blockchain to have ***Native SegWit (Bech32)*** enabled by default.
 
 As one of the successful derivatives of Bitcoin, Sugarchain is establishing its position as ***the world's fastest PoW blockchain***, complementing and reinforcing Bitcoin in purpose, function, and utility, and challenging our traditional notions of money. The Sugarchain Project has ***never been funded through an ICO or premine***, making it a fair launch. Sugarchain is an entirely community and voluntarily driven project, with no external company or funding supporting it apart from community funding.
+
+<small>** <a name="bitcointalk">[1]</a>: [Bitcointalk: [ANN] Sugarchain [CPU] Launching 2019/08/24 15:00 UTC](https://bitcointalk.org/index.php?topic=5177722.0)
+</small>
 
 
 Specifications
@@ -48,11 +51,25 @@ The world's fastest PoW blockchain
   * 120x faster than Bitcoin
   * 30x faster than Litecoin
   * 12x faster than Dogecoin
-- Transaction speed comparison:<br/>
-  <!-- ![txspeed.png](image/txspeed.png) -->
+- Transaction speed comparison
+  <sup>[[2]](#SUGAR_blocktime)</sup>
+  <sup>[[3]](#DGB_blocktime)</sup>
+  <sup>[[4]](#XVG_blocktime)</sup>
+  <sup>[[5]](#DOGE_blocktime)</sup>
+  <sup>[[6]](#LTC_blocktime)</sup>
+  <sup>[[7]](#BTC_blocktime)</sup>
+  :<br/>
   <img src="image/txspeed.png" width="95%">
 - Don't worry about orphan blocks:
   * According to the testnet results, the average orphan rate is under 3% and no problems occur.
+
+<small>** <a name="SUGAR_blocktime">[2]</a>: [Github: SUGAR speed](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/chainparams.cpp#L187)
+** <a name="DGB_blocktime">[3]</a>: [Github: DGB speed](https://github.com/digibyte/digibyte/blob/82414be2e78bd136daeb91f55c72768a9b700957/src/chainparams.cpp#L88)
+** <a name="XVG_blocktime">[4]</a>: [Github: XVG speed](https://github.com/vergecurrency/verge/blob/4ae658a47ff3ea7af269cf408387e8265cccf197/src/chainparams.cpp#L85)
+** <a name="DOGE_blocktime">[5]</a>: [Github: DOGE speed](https://github.com/dogecoin/dogecoin/blob/0b46a40ed125d7bf4b5a485b91350bc8bdc48fc8/src/chainparams.cpp#L89)
+** <a name="LTC_blocktime">[6]</a>: [Github: LTC speed](https://github.com/litecoin-project/litecoin/blob/81c4f2d80fbd33d127ff9b31bf588e4925599d79/src/chainparams.cpp#L74)
+** <a name="BTC_blocktime">[7]</a>: [Github: BTC speed](https://github.com/bitcoin/bitcoin/blob/48c1083632687a42ac603d4f241e70616a1d3815/src/chainparams.cpp#L77)
+</small>
 
 
 Native SegWit (Bech32)
@@ -60,15 +77,25 @@ Native SegWit (Bech32)
 - The first blockchain to have Native SegWit (Bech32) built-in by default.
 - Significantly faster and lower cost than legacy transaction.
 - Very high probability of detection guaranteed.
-- Structure<br/>
-  <!-- ![bech32_structure.png](image/bech32_structure.png) -->
-  <img src="image/bech32_structure.png" width="85%">
+- Structure
+  <sup>[[8]](#bip-0173)</sup>
+  <sup>[[9]](#native_segwit-youtube)</sup>
+  <sup>[[10]](#native_segwit-keynote)</sup>
+  <br/>
+  <img src="image/bech32_structure.png" width="75%">
+
+<small>** <a name="bip-0173">[8]</a>: [Github: BIP-173](https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki)
+** <a name="native_segwit-youtube">[9]</a>: [Youtube: Pieter Wuille: New Address Type for SegWit Addresses](https://www.youtube.com/watch?v=NqiN9VFE4CU)
+** <a name="native_segwit-keynote">[10]</a>: [Keynote Document](https://prezi.com/gwnjkqjqjjbz/bech32-a-base32-address-format/)
+</small>
 
 
 Better halving & Exact supply
 -----------------------------
 Halving is everything about limiting the total supply. Bitcoin is valuable because its total supply has been strictly limited, unlike traditional currencies. This total supply is controlled only by that halving. There is nothing else. We made this halving better.
 - The formula of Sugarchain’s total money supply (in satoshis)
+  <sup>[[11]](#BTC_whitepaper)</sup>
+  <sup>[[12]](#BTC_supply)</sup>
   <img src="image/supply_formula.png" width="40%">
 - Block reward:
   * The block reward should be to a ***power of two***, so that it halves correctly.
@@ -82,23 +109,28 @@ Halving is everything about limiting the total supply. Bitcoin is valuable becau
   * The total supply of Sugarchain is around 51 times greater than Bitcoin.
 - Halving chart:<br/>
   ![halving_chart.png](https://raw.githubusercontent.com/sugarchain-project/sugarchain-project.github.io/master/image/halving_chart.png)
-<!-- - Halving table: -->
+<!-- BEGIN - Hidden Halving table: -->
 - <details><summary>Halving table: <i>(click to expand)</i></summary><br/>
 
   ![halving_table.png](https://raw.githubusercontent.com/sugarchain-project/sugarchain-project.github.io/master/image/halving_table.png)
 
   </details>
+<!-- END - Hidden Halving table: -->
+
+<small>** <a name="BTC_whitepaper">[11]</a>: [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf)
+** <a name="BTC_supply">[12]</a>: [Bitcoin Wiki: Controlled supply](https://en.bitcoin.it/wiki/Controlled_supply)
+</small>
 
 
 one-CPU-one-vote
 ----------------
-> “31/Oct/2008 Proof-of-work is essentially one-CPU-one-vote”
+> “31/Oct/2008 Proof-of-work is essentially one-CPU-one-vote” <sup>[[11]](#BTC_whitepaper)</sup>
 
 Satoshi Nakamoto talked about the importance of decentralized mining in his whitepaper. We want to create a blockchain that anyone can do mining easily without any entry barriers.
 - CPU mining only
   * YespowerSugar (based on Yespower 1.0.1) is only for Sugarchain, not compatible with other Yespower coins.
   * The minimum difficulty (powlimit) is set low enough for two reasons. The first is to handle fast block time; The second is to allow mining on slow CPUs.
-- Mining efficiency:
+- Mining efficiency <sup>[[13]](#yespower)</sup> :
   * According to the test results, the most efficient is using ***half of threads*** on a single CPU.
   * YespowerSugar is more suitable for older CPUs, because it is essentially a ***multi-threading resistor***. Suitable for smartphones and Raspberry Pi.
 - Benchmark<br/>
@@ -106,11 +138,14 @@ Satoshi Nakamoto talked about the importance of decentralized mining in his whit
 - NO GPU: GPU mining is not possible.
 - NO ASIC: ASIC mining is not possible.
 
+<small>** <a name="yespower">[13]</a>: [Openwall: yespower - proof-of-work (PoW) scheme](https://www.openwall.com/yespower/)
+</small>
+
 
 Difficulty Adjustment Algorithm (DAA)
 -------------------------------------
 SugarShield-N510 is based on Zcash's modification of Digishield. Unlike the Zcash’s modification version, we use a moving average of `510 blocks (approx. 42.5 minutes)`. To keep the block time 5 seconds, SugarShield-N510 adjusts the difficulty level.
-- The formula of SugarShield-N510
+- The formula of SugarShield-N510 <sup>[[14]](#zawy-digishield)</sup>
   ```bash
   t = timestamp, h = height,
   T = 5 (target block time in seconds),
@@ -125,6 +160,9 @@ SugarShield-N510 is based on Zcash's modification of Digishield. Unlike the Zcas
 - Nonce distribution at first launching on testnet<br/>
   ![nonce_vs_difficulty.png](image/nonce_vs_difficulty.png)
   * The nonce is randomly well distributed. Difficulty changes but no bias. [(log: nonce-diff)](https://raw.githubusercontent.com/sugarchain-project/sugarchain-project.github.io/master/log/nonce_vs_difficulty-13548.log)
+
+<small>** <a name="zawy-digishield">[14]</a>: [Github: Summary of Difficulty Algorithms](https://github.com/zawy12/difficulty-algorithms/issues/50)
+</small>
 
 
 FAQ
