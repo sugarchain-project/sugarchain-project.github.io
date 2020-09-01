@@ -69,7 +69,7 @@ Better halving & Exact supply
 -----------------------------
 Halving is everything about limiting the total supply. Bitcoin is valuable because its total supply has been strictly limited, unlike traditional currencies. This total supply is controlled only by that halving. There is nothing else. We made this halving better.
 - The formula of Sugarchain’s total money supply (in satoshis)
-  <img src="image/supply_formula.png" width="25%">
+  <img src="image/supply_formula.png" width="50%">
 - Block reward:
   * The block reward should be to a ***power of two***, so that it halves correctly.
   * `2^32/1e+8 = 42.94967296 SUGAR`
@@ -111,7 +111,12 @@ Difficulty Adjustment Algorithm (DAA)
 -------------------------------------
 SugarShield-N510 is based on Zcash's modification of Digishield. Unlike the Zcash’s modification version, we use a moving average of `510 blocks (approx. 42.5 minutes)`. To keep the block time 5 seconds, SugarShield-N510 adjusts the difficulty level.
 - The formula of SugarShield-N510
-  <img src="image/sugarshield_formula.png" width="50%">
+  ```c
+  t = timestamp, h = height,
+  T = 5 (target block time in seconds),
+  N = 510 (window size in blocks)
+  ```
+  <img src="image/sugarshield_formula.png" width="75%">
 
 - Block time vs difficulty at first launching on testnet<br/>
   ![time_vs_difficulty.png](image/time_vs_difficulty.png)
