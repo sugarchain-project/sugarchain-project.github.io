@@ -40,8 +40,8 @@ Block reward: | `42.94967296` SUGAR <sup>[[3]](#SUGAR_blockreward)</sup>
 Halving interval: | `12,500,000` Blocks (approx. 2 years) <sup>[[4]](#SUGAR_halving_interval)</sup>
 Total supply: | `1,073,741,824` SUGAR <sup>[[5]](#SUGAR_total_supply)</sup> <sup>[[6]](#SUGAR_total_cap)</sup> <sup>[[7]](#SUGAR_total_test)</sup>
 PoW algorithm: | YespowerSugar <sup>[[7]](#SUGAR_yespower_sugar)</sup> (based on Yespower 1.0.1)
-Difficulty: | SugarShield-N510 <sup>[[8]](#SUGAR_sugarshield_n510)</sup> <sup>[[9]](#SUGAR_sugarshield_n510_pow)</sup> (based on Zcash's modification of Digishield)
-Port: | 34230 <sup>[[10]](#SUGAR_port)</sup> / RPC 34229 <sup>[[11]](#SUGAR_rpc_port)</sup>
+Difficulty: | SugarShield-N510 (based on Zcash's modification of Digishield)
+Port: | 34230 / RPC 34229
 Premine: | None: NO ICO, NO Presale, NO Founder's rewards
 
 <small>** <a name="SUGAR_blocktime">[2]</a>: [Github: SUGAR speed](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/chainparams.cpp#L187)
@@ -52,10 +52,6 @@ Premine: | None: NO ICO, NO Presale, NO Founder's rewards
 ** <a name="SUGAR_total_test">[7]</a>: [Total test](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/test/main_tests.cpp#L48-L67)
 ** <a name="SUGAR_total_test_qt">[7]</a>: [Total test(qt)](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/qt/test/paymentrequestdata.h#L437-L468)
 ** <a name="SUGAR_yespower_sugar">[7]</a>: [YespowerSugar](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/primitives/block.cpp#L30-L70)
-** <a name="SUGAR_sugarshield_n510">[8]</a>: [SugarShield-N510](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/chainparams.cpp#L143-L170)
-** <a name="SUGAR_sugarshield_n510_pow">[9]</a>: [SugarShield-N510(pow)](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/pow.cpp)
-** <a name="SUGAR_port">[10]</a>: [Port](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/chainparams.cpp#L236)
-** <a name="SUGAR_rpc_port">[10]</a>: [RPC port](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/chainparamsbase.cpp#L36)
 </small>
 
 
@@ -157,8 +153,8 @@ Satoshi Nakamoto talked about the importance of decentralized mining in his whit
 
 Difficulty Adjustment Algorithm (DAA)
 -------------------------------------
-SugarShield-N510 is based on Zcash's modification of Digishield. Unlike the Zcash’s modification version, we use a moving average of `510 blocks (approx. 42.5 minutes)`. To keep the block time 5 seconds, SugarShield-N510 adjusts the difficulty level.
-- The formula of SugarShield-N510 <sup>[[14]](#zawy-digishield)</sup>
+SugarShield-N510 is based on Zcash's modification of Digishield. Unlike the Zcash’s modification version, we use a moving average of `510 blocks (approx. 42.5 minutes)` <sup>[[14]](#SUGAR_sugarshield_n510)</sup> <sup>[[15]](#SUGAR_sugarshield_n510_pow)</sup>. To keep the block time 5 seconds, SugarShield-N510 adjusts the difficulty level.
+- The formula of SugarShield-N510 <sup>[[16]](#zawy-digishield)</sup>
   ```bash
   t = timestamp, h = height,
   T = 5 (target block time in seconds),
@@ -174,7 +170,9 @@ SugarShield-N510 is based on Zcash's modification of Digishield. Unlike the Zcas
   ![nonce_vs_difficulty.png](image/nonce_vs_difficulty.png)
   * The nonce is randomly well distributed. Difficulty changes but no bias. [(log: nonce-diff)](https://raw.githubusercontent.com/sugarchain-project/sugarchain-project.github.io/master/log/nonce_vs_difficulty-13548.log)
 
-<small>** <a name="zawy-digishield">[14]</a>: [Github: Summary of Difficulty Algorithms](https://github.com/zawy12/difficulty-algorithms/issues/50)
+<small>** <a name="SUGAR_sugarshield_n510">[14]</a>: [Github: SugarShield-N510](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/chainparams.cpp#L143-L170)
+** <a name="SUGAR_sugarshield_n510_pow">[15]</a>: [SugarShield-N510(pow)](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/pow.cpp)
+** <a name="zawy-digishield">[16]</a>: [Summary of Difficulty Algorithms](https://github.com/zawy12/difficulty-algorithms/issues/50)
 </small>
 
 
