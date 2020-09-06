@@ -35,34 +35,23 @@ Specifications
 --------------
 | | |
 ------------|------------
-Block time: | `5` Seconds <sup>[[2]](#SUGAR_blocktime)</sup>
-Block reward: | `42.94967296` SUGAR <sup>[[3]](#SUGAR_blockreward)</sup>
-Halving interval: | `12,500,000` Blocks (approx. 2 years) <sup>[[4]](#SUGAR_halving_interval)</sup>
-Total supply: | `1,073,741,824` SUGAR <sup>[[5]](#SUGAR_total_supply)</sup> <sup>[[6]](#SUGAR_total_cap)</sup> <sup>[[7]](#SUGAR_total_test)</sup>
-PoW algorithm: | YespowerSugar <sup>[[7]](#SUGAR_yespower_sugar)</sup> (based on Yespower 1.0.1)
+Block time: | `5` Seconds
+Block reward: | `42.94967296` SUGAR
+Halving interval: | `12,500,000` Blocks (approx. 2 years)
+Total supply: | `1,073,741,824` SUGAR
+PoW algorithm: | YespowerSugar (based on Yespower 1.0.1)
 Difficulty: | SugarShield-N510 (based on Zcash's modification of Digishield)
 Port: | 34230 / RPC 34229
 Premine: | None: NO ICO, NO Presale, NO Founder's rewards
 
-<small>** <a name="SUGAR_blocktime">[2]</a>: [Github: SUGAR speed](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/chainparams.cpp#L187)
-** <a name="SUGAR_blockreward">[3]</a>: [Block reward](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/validation.cpp#L1155)
-** <a name="SUGAR_halving_interval">[4]</a>: [Halving interval](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/chainparams.cpp#L135)
-** <a name="SUGAR_total_supply">[5]</a>: [Total supply](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/validation.cpp#L1147-L1216)
-** <a name="SUGAR_total_cap">[6]</a>: [Total cap](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/amount.h#L33)
-** <a name="SUGAR_total_test">[7]</a>: [Total test](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/test/main_tests.cpp#L48-L67)
-** <a name="SUGAR_total_test_qt">[7]</a>: [Total test(qt)](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/qt/test/paymentrequestdata.h#L437-L468)
-** <a name="SUGAR_yespower_sugar">[7]</a>: [YespowerSugar](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/primitives/block.cpp#L30-L70)
-</small>
-
 
 The world's fastest PoW blockchain
 ----------------------------------
-- 5 seconds transaction speed:
+- 5 seconds transaction speed <sup>[[2]](#SUGAR_blocktime)</sup> :
   * 120x faster than Bitcoin
   * 30x faster than Litecoin
   * 12x faster than Dogecoin
 - Transaction speed comparison
-  <sup>[[2]](#SUGAR_blocktime)</sup>
   <sup>[[3]](#DGB_blocktime)</sup>
   <sup>[[4]](#XVG_blocktime)</sup>
   <sup>[[5]](#DOGE_blocktime)</sup>
@@ -73,11 +62,12 @@ The world's fastest PoW blockchain
 - Don't worry about orphan blocks:
   * According to the testnet results, the average orphan rate is under 3% and no problems occur.
 
-<small>** <a name="DGB_blocktime">[3]</a>: [Github: DGB speed](https://github.com/digibyte/digibyte/blob/82414be2e78bd136daeb91f55c72768a9b700957/src/chainparams.cpp#L88)
-** <a name="XVG_blocktime">[4]</a>: [Github: XVG speed](https://github.com/vergecurrency/verge/blob/4ae658a47ff3ea7af269cf408387e8265cccf197/src/chainparams.cpp#L85)
-** <a name="DOGE_blocktime">[5]</a>: [Github: DOGE speed](https://github.com/dogecoin/dogecoin/blob/0b46a40ed125d7bf4b5a485b91350bc8bdc48fc8/src/chainparams.cpp#L89)
-** <a name="LTC_blocktime">[6]</a>: [Github: LTC speed](https://github.com/litecoin-project/litecoin/blob/81c4f2d80fbd33d127ff9b31bf588e4925599d79/src/chainparams.cpp#L74)
-** <a name="BTC_blocktime">[7]</a>: [Github: BTC speed](https://github.com/bitcoin/bitcoin/blob/48c1083632687a42ac603d4f241e70616a1d3815/src/chainparams.cpp#L77)
+<small>** <a name="SUGAR_blocktime">[2]</a>: [Github: SUGAR speed](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/chainparams.cpp#L187)
+** <a name="DGB_blocktime">[3]</a>: [DGB speed](https://github.com/digibyte/digibyte/blob/82414be2e78bd136daeb91f55c72768a9b700957/src/chainparams.cpp#L88)
+** <a name="XVG_blocktime">[4]</a>: [XVG speed](https://github.com/vergecurrency/verge/blob/4ae658a47ff3ea7af269cf408387e8265cccf197/src/chainparams.cpp#L85)
+** <a name="DOGE_blocktime">[5]</a>: [DOGE speed](https://github.com/dogecoin/dogecoin/blob/0b46a40ed125d7bf4b5a485b91350bc8bdc48fc8/src/chainparams.cpp#L89)
+** <a name="LTC_blocktime">[6]</a>: [LTC speed](https://github.com/litecoin-project/litecoin/blob/81c4f2d80fbd33d127ff9b31bf588e4925599d79/src/chainparams.cpp#L74)
+** <a name="BTC_blocktime">[7]</a>: [BTC speed](https://github.com/bitcoin/bitcoin/blob/48c1083632687a42ac603d4f241e70616a1d3815/src/chainparams.cpp#L77)
 </small>
 
 
@@ -94,8 +84,8 @@ Native SegWit (Bech32)
   <img src="image/bech32_structure.png" width="75%">
 
 <small>** <a name="bip-0173">[8]</a>: [Github: BIP-173](https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki)
-** <a name="native_segwit-youtube">[9]</a>: [Youtube: Pieter Wuille: New Address Type for SegWit Addresses](https://www.youtube.com/watch?v=NqiN9VFE4CU)
-** <a name="native_segwit-keynote">[10]</a>: [Keynote Document](https://prezi.com/gwnjkqjqjjbz/bech32-a-base32-address-format/)
+** <a name="native_segwit-youtube">[9]</a>: [Youtube: New Address Type for SegWit Addresses by Pieter Wuille](https://www.youtube.com/watch?v=NqiN9VFE4CU)
+** <a name="native_segwit-keynote">[10]</a>: [File: Keynote Document](https://prezi.com/gwnjkqjqjjbz/bech32-a-base32-address-format/)
 </small>
 
 
@@ -108,12 +98,12 @@ Halving is everything about limiting the total supply. Bitcoin is valuable becau
   <img src="image/supply_formula.png" width="40%">
 - Block reward:
   * The block reward should be to a ***power of two***, so that it halves correctly.
-  * `2^32/1e+8 = 42.94967296 SUGAR`
+  * `2^32/1e+8 = 42.94967296 SUGAR` <sup>[[13]](#SUGAR_blockreward)</sup>
 - Halving schedule:
-  * Interval `12500000 blocks (5^8*32)` which is approx. 2 years (62,500,000 seconds).
+  * Interval `12500000 blocks (5^8*32)` <sup>[[14]](#SUGAR_halving_interval)</sup> which is approx. 2 years (62,500,000 seconds).
   * The total number of times halving will occur is 33 times, over the span of approx. 66 years (34,375,000 minutes).
 - Total supply:
-  * `1073741824 SUGAR` in theory, and `1073741823.875 SUGAR` in actual.
+  * `1073741824 SUGAR` <sup>[[15]](#SUGAR_total_supply)</sup> <sup>[[16]](#SUGAR_total_cap)</sup> in theory, and `1073741823.875 SUGAR` <sup>[[17]](#SUGAR_total_test)</sup> <sup>[[18]](#SUGAR_total_test_qt)</sup> in actual.
   * The difference is `0.125 SUGAR`. One Satoshi (0.00000001) limitation makes this difference. In addition, this number is meaningful. FYI: `1 GB = 1073741824 Byte (2^30)`.
   * The total supply of Sugarchain is around 51 times greater than Bitcoin.
 - Halving chart:<br/>
@@ -128,6 +118,12 @@ Halving is everything about limiting the total supply. Bitcoin is valuable becau
 
 <small>** <a name="BTC_whitepaper">[11]</a>: [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf)
 ** <a name="BTC_supply">[12]</a>: [Bitcoin Wiki: Controlled supply](https://en.bitcoin.it/wiki/Controlled_supply)
+** <a name="SUGAR_blockreward">[13]</a>: [Github: Block Reward](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/validation.cpp#L1155)
+** <a name="SUGAR_halving_interval">[14]</a>: [Halving Interval](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/chainparams.cpp#L135)
+** <a name="SUGAR_total_supply">[15]</a>: [Total Supply](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/validation.cpp#L1147-L1216)
+** <a name="SUGAR_total_cap">[16]</a>: [Total Cap](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/amount.h#L33)
+** <a name="SUGAR_total_test">[17]</a>: [Total Test](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/test/main_tests.cpp#L48-L67)
+** <a name="SUGAR_total_test_qt">[18]</a>: [Total Test(qt)](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/qt/test/paymentrequestdata.h#L437-L468)
 </small>
 
 
@@ -137,9 +133,9 @@ one-CPU-one-vote
 
 Satoshi Nakamoto talked about the importance of decentralized mining in his whitepaper. We want to create a blockchain that anyone can do mining easily without any entry barriers.
 - CPU mining only
-  * YespowerSugar (based on Yespower 1.0.1) is only for Sugarchain, not compatible with other Yespower coins.
+  * YespowerSugar <sup>[[19]](#SUGAR_yespower_sugar)</sup> (based on Yespower 1.0.1) is only for Sugarchain, not compatible with other Yespower coins.
   * The minimum difficulty (powlimit) is set low enough for two reasons. The first is to handle fast block time; The second is to allow mining on slow CPUs.
-- Mining efficiency <sup>[[13]](#yespower)</sup> :
+- Mining efficiency <sup>[[20]](#yespower)</sup> :
   * According to the test results, the most efficient is using ***half of threads*** on a single CPU.
   * YespowerSugar is more suitable for older CPUs, because it is essentially a ***multi-threading resistor***. Suitable for smartphones and Raspberry Pi.
 - Benchmark<br/>
@@ -147,14 +143,15 @@ Satoshi Nakamoto talked about the importance of decentralized mining in his whit
 - NO GPU: GPU mining is not possible.
 - NO ASIC: ASIC mining is not possible.
 
-<small>** <a name="yespower">[13]</a>: [Openwall: yespower - proof-of-work (PoW) scheme](https://www.openwall.com/yespower/)
+<small>** <a name="SUGAR_yespower_sugar">[19]</a>: [Github: YespowerSugar](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/primitives/block.cpp#L30-L70)
+** <a name="yespower">[20]</a>: [Openwall: yespower - proof-of-work (PoW) scheme](https://www.openwall.com/yespower/)
 </small>
 
 
 Difficulty Adjustment Algorithm (DAA)
 -------------------------------------
-SugarShield-N510 is based on Zcash's modification of Digishield. Unlike the Zcash’s modification version, we use a moving average of `510 blocks (approx. 42.5 minutes)` <sup>[[14]](#SUGAR_sugarshield_n510)</sup> <sup>[[15]](#SUGAR_sugarshield_n510_pow)</sup>. To keep the block time 5 seconds, SugarShield-N510 adjusts the difficulty level.
-- The formula of SugarShield-N510 <sup>[[16]](#zawy-digishield)</sup>
+SugarShield-N510 is based on Zcash's modification of Digishield. Unlike the Zcash’s modification version, we use a moving average of `510 blocks (approx. 42.5 minutes)` <sup>[[21]](#SUGAR_sugarshield_n510)</sup> <sup>[[22]](#SUGAR_sugarshield_n510_pow)</sup>. To keep the block time 5 seconds, SugarShield-N510 adjusts the difficulty level.
+- The formula of SugarShield-N510 <sup>[[23]](#zawy-digishield)</sup>
   ```bash
   t = timestamp, h = height,
   T = 5 (target block time in seconds),
@@ -170,9 +167,9 @@ SugarShield-N510 is based on Zcash's modification of Digishield. Unlike the Zcas
   ![nonce_vs_difficulty.png](image/nonce_vs_difficulty.png)
   * The nonce is randomly well distributed. Difficulty changes but no bias. [(log: nonce-diff)](https://raw.githubusercontent.com/sugarchain-project/sugarchain-project.github.io/master/log/nonce_vs_difficulty-13548.log)
 
-<small>** <a name="SUGAR_sugarshield_n510">[14]</a>: [Github: SugarShield-N510](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/chainparams.cpp#L143-L170)
-** <a name="SUGAR_sugarshield_n510_pow">[15]</a>: [SugarShield-N510(pow)](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/pow.cpp)
-** <a name="zawy-digishield">[16]</a>: [Summary of Difficulty Algorithms](https://github.com/zawy12/difficulty-algorithms/issues/50)
+<small>** <a name="SUGAR_sugarshield_n510">[21]</a>: [Github: SugarShield-N510](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/chainparams.cpp#L143-L170)
+** <a name="SUGAR_sugarshield_n510_pow">[22]</a>: [SugarShield-N510(pow)](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/pow.cpp)
+** <a name="zawy-digishield">[23]</a>: [Summary of Difficulty Algorithms](https://github.com/zawy12/difficulty-algorithms/issues/50)
 </small>
 
 
@@ -181,11 +178,15 @@ FAQ
 - Disk space requirements:
   * Blockchain size growth is around `10 MB per day` and around 3.65 GB per year.
 - Network rules:
-  * To prevent fraud and timestamp attacks, nodes should be within `70 seconds` of accurate internet time, or they will be banned.
+  * To prevent fraud and timestamp attacks, nodes should be within `70 seconds` <sup>[[24]](#70_seconds)</sup> of accurate internet time, or they will be banned.
 - Selfish mining & time warp attack:
-  * Fraud techniques for manipulating timestamps are already known. We use a future time limit (FTL) to prevent this. Blocks that differ `60 seconds` or more from the current head will be banned. (credit: zawy12)
+  * Fraud techniques for manipulating timestamps are already known. We use a future time limit (FTL) to prevent this. Blocks that differ `60 seconds` <sup>[[25]](#FTL_60)</sup> or more from the current head will be banned. (credit: zawy12)
 - Header indexing:
   * Using sha256d in header indexing, the initial synchronization speed is as fast as Litecoin.
+
+<small>** <a name="70_seconds">[24]</a>: [Github: timedata.h](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/timedata.h#L23)
+** <a name="FTL_60">[25]</a>: [Future Time Limit](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/chain.h#L36)
+</small>
 
 
 Wallet
