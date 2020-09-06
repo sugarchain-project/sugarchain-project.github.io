@@ -4,6 +4,9 @@ one-CPU-one-vote, the world’s fastest PoW blockchain
 https://sugarchain.org
 
 
+> **Abstract.** Sugarchain is the world's fastest PoW blockchain that the first Native SegWit (Bech32) built-in by default. Unlike Bitcoin, Sugarchain has no rounding errors when block reward is halving. Its launching was a fair distribution and following Nakamoto's one-CPU-one-vote.
+
+
 Introduction
 ------------
 Sugarchain is a decentralized, peer-to-peer (P2P) digital currency and payment network supported by an open-source blockchain protocol, launched by Zenny Kim and Volodymyr Biloshytskyi on August 24, 2019 <sup>[[1]](#bitcointalk)</sup>. Through Sugarchain, users can make payments to anyone in the world at the highest speeds ***in 5 seconds***, and the lowest costs compared to other digital assets. For example, the transaction speed of Sugarchain is 120 times faster than Bitcoin, 30 times faster than Litecoin and 12 times faster than Dogecoin.
