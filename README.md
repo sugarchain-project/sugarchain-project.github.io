@@ -35,14 +35,28 @@ Specifications
 --------------
 | | |
 ------------|------------
-Block time: | `5` Seconds
-Block reward: | `42.94967296` SUGAR
-Halving interval: | `12,500,000` Blocks (approx. 2 years)
-Total supply: | `1,073,741,824` SUGAR
-PoW algorithm: | YespowerSugar (based on Yespower 1.0.1)
-Difficulty: | SugarShield-N510 (based on Zcash's modification of Digishield)
-Port: | 34230 / RPC 34229
+Block time: | `5` Seconds <sup>[[2]](#SUGAR_blocktime)</sup>
+Block reward: | `42.94967296` SUGAR <sup>[[3]](#SUGAR_blockreward)</sup>
+Halving interval: | `12,500,000` Blocks (approx. 2 years) <sup>[[4]](#SUGAR_halving_interval)</sup>
+Total supply: | `1,073,741,824` SUGAR <sup>[[5]](#SUGAR_total_supply)</sup> <sup>[[6]](#SUGAR_total_cap)</sup> <sup>[[7]](#SUGAR_total_test)</sup>
+PoW algorithm: | YespowerSugar <sup>[[7]](#SUGAR_yespower_sugar)</sup> (based on Yespower 1.0.1)
+Difficulty: | SugarShield-N510 <sup>[[8]](#SUGAR_sugarshield_n510)</sup> <sup>[[9]](#SUGAR_sugarshield_n510_pow)</sup> (based on Zcash's modification of Digishield)
+Port: | 34230 <sup>[[10]](#SUGAR_port)</sup> / RPC 34229 <sup>[[11]](#SUGAR_rpc_port)</sup>
 Premine: | None: NO ICO, NO Presale, NO Founder's rewards
+
+<small>** <a name="SUGAR_blocktime">[2]</a>: [Github: SUGAR speed](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/chainparams.cpp#L187)
+** <a name="SUGAR_blockreward">[3]</a>: [Block reward](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/validation.cpp#L1155)
+** <a name="SUGAR_halving_interval">[4]</a>: [Halving interval](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/chainparams.cpp#L135)
+** <a name="SUGAR_total_supply">[5]</a>: [Total supply](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/validation.cpp#L1147-L1216)
+** <a name="SUGAR_total_cap">[6]</a>: [Total cap](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/amount.h#L33)
+** <a name="SUGAR_total_test">[7]</a>: [Total test](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/test/main_tests.cpp#L48-L67)
+** <a name="SUGAR_total_test_qt">[7]</a>: [Total test(qt)](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/qt/test/paymentrequestdata.h#L437-L468)
+** <a name="SUGAR_yespower_sugar">[7]</a>: [YespowerSugar](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/primitives/block.cpp#L30-L70)
+** <a name="SUGAR_sugarshield_n510">[8]</a>: [SugarShield-N510](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/chainparams.cpp#L143-L170)
+** <a name="SUGAR_sugarshield_n510_pow">[9]</a>: [SugarShield-N510(pow)](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/pow.cpp)
+** <a name="SUGAR_port">[10]</a>: [Port](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/chainparams.cpp#L236)
+** <a name="SUGAR_rpc_port">[10]</a>: [RPC port](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/chainparamsbase.cpp#L36)
+</small>
 
 
 The world's fastest PoW blockchain
@@ -63,8 +77,7 @@ The world's fastest PoW blockchain
 - Don't worry about orphan blocks:
   * According to the testnet results, the average orphan rate is under 3% and no problems occur.
 
-<small>** <a name="SUGAR_blocktime">[2]</a>: [Github: SUGAR speed](https://github.com/sugarchain-project/sugarchain/blob/d2d13cacd9e7c2640a02e6392978a26df06f9eb8/src/chainparams.cpp#L187)
-** <a name="DGB_blocktime">[3]</a>: [Github: DGB speed](https://github.com/digibyte/digibyte/blob/82414be2e78bd136daeb91f55c72768a9b700957/src/chainparams.cpp#L88)
+<small>** <a name="DGB_blocktime">[3]</a>: [Github: DGB speed](https://github.com/digibyte/digibyte/blob/82414be2e78bd136daeb91f55c72768a9b700957/src/chainparams.cpp#L88)
 ** <a name="XVG_blocktime">[4]</a>: [Github: XVG speed](https://github.com/vergecurrency/verge/blob/4ae658a47ff3ea7af269cf408387e8265cccf197/src/chainparams.cpp#L85)
 ** <a name="DOGE_blocktime">[5]</a>: [Github: DOGE speed](https://github.com/dogecoin/dogecoin/blob/0b46a40ed125d7bf4b5a485b91350bc8bdc48fc8/src/chainparams.cpp#L89)
 ** <a name="LTC_blocktime">[6]</a>: [Github: LTC speed](https://github.com/litecoin-project/litecoin/blob/81c4f2d80fbd33d127ff9b31bf588e4925599d79/src/chainparams.cpp#L74)
