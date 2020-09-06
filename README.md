@@ -4,7 +4,7 @@ one-CPU-one-vote, the world’s fastest PoW blockchain
 https://sugarchain.org
 
 
-> **Abstract.** Sugarchain is the world's fastest PoW blockchain that the first Native SegWit (Bech32) built-in by default. Unlike Bitcoin, Sugarchain has no rounding errors when block reward is halving. Its launching was a fair distribution and following Nakamoto's one-CPU-one-vote.
+> **Abstract.** Sugarchain is the world's fastest PoW blockchain, that has the first Native SegWit (Bech32) built-in by default. Unlike Bitcoin, Sugarchain has no rounding errors when the block reward is halved. Its launching was a fair distribution and following Nakamoto's one-CPU-one-vote.
 
 
 Introduction
