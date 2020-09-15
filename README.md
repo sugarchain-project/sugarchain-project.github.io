@@ -195,6 +195,7 @@ Sugarchain’s first node software is called **Yumekawa (夢川)**. It can be tr
 - <img src="image/icon_osx.png" width="18"> OSX (Apple macOS): https://github.com/sugarchain-project/sugarchain/releases/latest
 - <img src="image/icon_arm.png" width="18"> ARM64 (aarch64): https://github.com/sugarchain-project/sugarchain/releases/latest
 - <img src="image/icon_arm.png" width="18"> ARM32 (arm): https://github.com/sugarchain-project/sugarchain/releases/latest
+- Bootstrap: https://github.com/sugarchain-project/bootstrap/releases/latest
 - Source: https://github.com/sugarchain-project/sugarchain
 
 
