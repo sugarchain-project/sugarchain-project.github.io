@@ -45,8 +45,9 @@ The world's fastest PoW blockchain
   <sup>[[5]](#DOGE_blocktime)</sup>
   <sup>[[6]](#LTC_blocktime)</sup>
   <sup>[[7]](#BTC_blocktime)</sup>
-  :<br/>
+  <br>
   <img src="image/txspeed.png" width="95%">
+  <br>
 - Don't worry about orphan blocks:
   * According to the testnet results, the average orphan rate is under 3% and no problems occur.
 
@@ -68,8 +69,9 @@ Native SegWit (Bech32)
   <sup>[[8]](#bip-0173)</sup>
   <sup>[[9]](#native_segwit-youtube)</sup>
   <sup>[[10]](#native_segwit-keynote)</sup>
-  <br/>
+  <br>
   <img src="image/bech32_structure.png" width="75%">
+  <br>
 
 <small>** <a name="bip-0173">[8]</a>: [Github: BIP-173](https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki)
 ** <a name="native_segwit-youtube">[9]</a>: [Youtube: New Address Type for SegWit Addresses by Pieter Wuille](https://www.youtube.com/watch?v=NqiN9VFE4CU)
@@ -83,7 +85,9 @@ Halving is everything about limiting the total supply. Bitcoin is valuable becau
 - The formula of Sugarchain’s total money supply (in satoshis)
   <sup>[[11]](#BTC_whitepaper)</sup>
   <sup>[[12]](#BTC_supply)</sup>
+  <br>
   <img src="image/supply_formula.png" width="40%">
+  <br>
 - Block reward:
   * The block reward should be to a ***power of two***, so that it halves correctly.
   * `2^32/1e+8 = 42.94967296 SUGAR` <sup>[[13]](#SUGAR_blockreward)</sup>
@@ -94,10 +98,10 @@ Halving is everything about limiting the total supply. Bitcoin is valuable becau
   * `1073741824 SUGAR` <sup>[[15]](#SUGAR_total_supply)</sup> <sup>[[16]](#SUGAR_total_cap)</sup> in theory, and `1073741823.875 SUGAR` <sup>[[17]](#SUGAR_total_test)</sup> <sup>[[18]](#SUGAR_total_test_qt)</sup> in actual.
   * The difference is `0.125 SUGAR`. One Satoshi (0.00000001) limitation makes this difference. In addition, this number is meaningful. FYI: `1 GB = 1073741824 Byte (2^30)`.
   * The total supply of Sugarchain is around 51 times greater than Bitcoin.
-- Halving chart:<br/>
+- Halving chart<br>
   ![halving_chart.png](https://raw.githubusercontent.com/sugarchain-project/sugarchain-project.github.io/master/image/halving_chart.png)
 <!-- BEGIN - Hidden Halving table: -->
-- <details><summary>Halving table: <i>(click to expand)</i></summary><br/>
+- <details><summary>Halving table <i>(click to expand)</i></summary><br>
 
   ![halving_table.png](https://raw.githubusercontent.com/sugarchain-project/sugarchain-project.github.io/master/image/halving_table.png)
 
@@ -126,8 +130,10 @@ Satoshi Nakamoto talked about the importance of decentralized mining in his whit
 - Mining efficiency <sup>[[20]](#yespower)</sup> :
   * According to the test results, the most efficient is using ***half of threads*** on a single CPU.
   * YespowerSugar is more suitable for older CPUs, because it is essentially a ***multi-threading resistor***. Suitable for smartphones and Raspberry Pi.
-- Benchmark<br/>
+- Benchmark
+  <br>
   <img src="image/yps_efficiency.png" width="90%">
+  <br>
 - NO GPU: GPU mining is not possible.
 - NO ASIC: ASIC mining is not possible.
 
@@ -145,13 +151,15 @@ SugarShield-N510 is based on Zcash's modification of Digishield. Unlike the Zcas
   T = 5 (target block time in seconds),
   N = 510 (window size in blocks)
   ```
+  <br>
   <img src="image/sugarshield_formula.png" width="50%">
+  <br>
 
-- Block time vs difficulty at first launching on testnet<br/>
+- Block time vs difficulty at first launching on testnet<br>
   ![time_vs_difficulty.png](image/time_vs_difficulty.png)
   * It counts from block 1, an adjustment is made at block 511, and the actual control begins at block 512. [(log: time-diff)](https://raw.githubusercontent.com/sugarchain-project/sugarchain-project.github.io/master/log/time_vs_difficulty-13536.log)
 
-- Nonce distribution at first launching on testnet<br/>
+- Nonce distribution at first launching on testnet<br>
   ![nonce_vs_difficulty.png](image/nonce_vs_difficulty.png)
   * The nonce is randomly well distributed. Difficulty changes but no bias. [(log: nonce-diff)](https://raw.githubusercontent.com/sugarchain-project/sugarchain-project.github.io/master/log/nonce_vs_difficulty-13548.log)
 
