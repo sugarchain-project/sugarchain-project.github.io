@@ -243,7 +243,6 @@ Please contact us if you have a new mining pool.
 - 1pool@tokyo: https://1pool.sugarchain.org
 - 2pool@tokyo: https://2pool.sugarchain.org
 - rplant@(moscow | london | toronto | singapore): https://pool.rplant.xyz
-- hashpex@usa: http://hashpex.com
 - mofumofu@tokyo: https://nomp.mofumofu.me
 - dxpool@china: https://www.dxpool.com
 - anomp@china: http://anomp.com:8090
@@ -251,7 +250,6 @@ Please contact us if you have a new mining pool.
 - nosuchpool@czechia: https://nosuchpool.cloud
 - customspeed@netherlands: http://pool.customspeed.nl
 - miningmadness@usa: https://www.miningmadness.com
-- pool.work@china: http://sugar.pool.work:8000
 - cpu-pool@russia: http://cpu-pool.com/
 - xpoolx@france: https://xpoolx.com
 - nendly@usa: https://sugar.nendly.com/
