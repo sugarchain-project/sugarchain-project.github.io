@@ -262,6 +262,7 @@ Explorer
 - Addressindex (old stable): https://sugarchain.org/explorer
 - Esplora: https://sugar.wtf/esplora
 - Esplora (old stable): https://sugarchain.org/esplora
+- Verge: https://2explorer.sugarchain.org
 
 
 Service
