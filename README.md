@@ -283,6 +283,7 @@ Service
 - Paper Wallet (old stable): https://sugarchain.org/SugarWalletGenerator.net/?currency=sugarchain
 - Wallet Extension for Google Chrome: https://chrome.google.com/webstore/detail/sugarchain-wallet-extensi/pgojdfajgcjjpjnbpfaelnpnjocakldb
 - Wallet Extension for Firefox: https://addons.mozilla.org/en-US/firefox/addon/sugarchain-wallet-extension/
+- Tip Extension for Firefox: https://addons.mozilla.org/en-US/firefox/addon/sugargift/
 
 
 Testnet
