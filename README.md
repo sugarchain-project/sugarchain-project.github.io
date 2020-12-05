@@ -310,6 +310,10 @@ Exchange
   * SUGAR-DOGE: https://ex4ange.org/?SUGAR-DOGE
 - OCCE.IO
   * SUGAR-BTC: https://www.occe.io/sugar_btc
+- Altilly.com
+  * SUGAR-BTC: https://altilly.com/market/SUGAR_BTC
+  * SUGAR-LTC: https://altilly.com/market/SUGAR_LTC
+  * SUGAR-USDT: https://altilly.com/market/SUGAR_USDT
 
 
 Community
