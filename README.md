@@ -299,8 +299,6 @@ Exchange
 - ALTMARKETS.IO
   * SUGAR-BTC: https://altmarkets.io/trading/sugarbtc
   * SUGAR-DOGE: https://altmarkets.io/trading/sugardoge
-- SKY.IO
-  * SUGAR-USDT: https://www.sky.io/exchange/SUGAR_USDT
 - KUANGEX.COM
   * SUGAR-USDT: https://www.kuangex.com/trade/sugar_usdt
 - GX.COM
