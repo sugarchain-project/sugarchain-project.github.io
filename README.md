@@ -312,7 +312,7 @@ Exchange
   * SUGAR-BTC: https://www.occe.io/sugar_btc
 - Altilly.com
   * SUGAR-BTC: https://altilly.com/market/SUGAR_BTC
-  * SUGAR-LTC: https://altilly.com/market/SUGAR_LTC
+  * SUGAR-DOGE: https://altilly.com/market/SUGAR_DOGE
   * SUGAR-USDT: https://altilly.com/market/SUGAR_USDT
 
 
