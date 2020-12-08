@@ -245,7 +245,7 @@ Please contact us if you have a new mining pool.
 - rplant@worldwide: https://pool.rplant.xyz
 - mofumofu@tokyo: https://nomp.mofumofu.me
 - dxpool@china: https://www.dxpool.com
-- anomp@china: http://anomp.com:8090
+- anomp@china: http://anomp.com
 - lepool@china: http://www.lepool.com.cn:8080
 - nosuchpool@czechia: https://nosuchpool.cloud
 - customspeed@netherlands: http://pool.customspeed.nl
