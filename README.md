@@ -255,6 +255,7 @@ Please contact us if you have a new mining pool.
 - nendly@usa: https://sugar.nendly.com/
 - zpool@worldwide: https://zpool.ca/algo/yespowerSUGAR
 - zergpool@worldwide: https://zergpool.com/site/mining?algo=yespowerSugar
+- bullcpu@russia: http://bullcpupool.com
 
 
 Explorer
