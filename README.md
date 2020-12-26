@@ -299,22 +299,22 @@ Testnet
 
 Exchange
 --------
-- ALTILLY.COM
-  * SUGAR-BTC: https://altilly.com/market/SUGAR_BTC
-  * SUGAR-DOGE: https://altilly.com/market/SUGAR_DOGE
-  * SUGAR-USDT: https://altilly.com/market/SUGAR_USDT
-- GX.COM
-  * SUGAR-USDT: https://www.gx.com/trade/SUGAR_USDT
 - ALTMARKETS.IO
   * SUGAR-BTC: https://altmarkets.io/trading/sugarbtc
   * SUGAR-DOGE: https://altmarkets.io/trading/sugardoge
 - KUANGEX.COM
   * SUGAR-USDT: https://www.kuangex.com/trade/sugar_usdt
+- GX.COM
+  * SUGAR-USDT: https://www.gx.com/trade/SUGAR_USDT
 - EX4ANGE.ORG
   * SUGAR-BTC: https://ex4ange.org/?SUGAR-BTC
   * SUGAR-DOGE: https://ex4ange.org/?SUGAR-DOGE
 - OCCE.IO
   * SUGAR-BTC: https://www.occe.io/sugar_btc
+- ALTILLY.COM
+  * SUGAR-BTC: https://altilly.com/market/SUGAR_BTC
+  * SUGAR-DOGE: https://altilly.com/market/SUGAR_DOGE
+  * SUGAR-USDT: https://altilly.com/market/SUGAR_USDT
 
 
 Community
