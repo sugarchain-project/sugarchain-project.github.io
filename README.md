@@ -253,8 +253,8 @@ Please contact us if you have a new mining pool.
 - cpu-pool@russia: http://cpu-pool.com/
 - xpoolx@france: https://xpoolx.com
 - nendly@usa: https://sugar.nendly.com/
-- zpool@worldwide: https://zpool.ca/algo/yespowerSUGAR
-- zergpool@worldwide: https://zergpool.com/site/mining?algo=yespowerSugar
+- ~~zpool@worldwide: https://zpool.ca/algo/yespowerSUGAR~~ (Disabled)
+- ~~zergpool@worldwide: https://zergpool.com/site/mining?algo=yespowerSugar~~ (Disabled)
 - bullcpupool@russia: http://bullcpupool.com
 - reallypool@russia: http://reallypool.ru
 
