@@ -312,7 +312,7 @@ Exchange
   * SUGAR-DOGE: https://ex4ange.org/?SUGAR-DOGE
 - OCCE.IO
   * SUGAR-BTC: https://www.occe.io/sugar_btc
-- ~~ALTILLY.COM~~(Hacked)
+- ~~ALTILLY.COM~~ ***(Hacked)***
   * ~~SUGAR-BTC: https://altilly.com/market/SUGAR_BTC~~
   * ~~SUGAR-DOGE: https://altilly.com/market/SUGAR_DOGE~~
   * ~~SUGAR-USDT: https://altilly.com/market/SUGAR_USDT~~
