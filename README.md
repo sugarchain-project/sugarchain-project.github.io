@@ -250,13 +250,14 @@ Please contact us if you have a new mining pool.
 - nosuchpool@czechia: https://nosuchpool.cloud
 - customspeed@netherlands: http://pool.customspeed.nl
 - miningmadness@usa: https://www.miningmadness.com
-- cpu-pool@russia: http://cpu-pool.com/
+- cpu-pool@russia: http://cpu-pool.com
 - xpoolx@france: https://xpoolx.com
-- nendly@usa: https://sugar.nendly.com/
+- nendly@usa: https://sugar.nendly.com
 - ~~zpool@worldwide: https://zpool.ca/algo/yespowerSUGAR~~ (Disabled)
 - ~~zergpool@worldwide: https://zergpool.com/site/mining?algo=yespowerSugar~~ (Disabled)
 - bullcpupool@russia: http://bullcpupool.com
 - reallypool@russia: http://reallypool.ru
+- instapool@USA: https://instapool.xyz
 
 
 Explorer
@@ -274,7 +275,7 @@ Service
 - Node Map: https://map.okoto.xyz/sugar
 - Halving Counter: https://sugarchain-blockhalf.github.io
 - API Addressindex: https://api.sugarchain.org
-- Faucet: https://cpu-mining.info/sugarchain-faucet/
+- Faucet: https://cpu-mining.info/sugarchain-faucet
 
 
 3rd party wallet
@@ -286,16 +287,16 @@ Service
 - Paper Wallet: https://nao20010128nao.github.io/WalletGenerator.net/?currency=sugarchain
 - Paper Wallet (old stable): https://sugarchain.org/SugarWalletGenerator.net/?currency=sugarchain
 - Wallet Extension for Google Chrome: https://chrome.google.com/webstore/detail/sugarchain-wallet-extensi/pgojdfajgcjjpjnbpfaelnpnjocakldb
-- Wallet Extension for Firefox: https://addons.mozilla.org/en-US/firefox/addon/sugarchain-wallet-extension/
-- Tip Extension for Firefox: https://addons.mozilla.org/en-US/firefox/addon/sugargift/
+- Wallet Extension for Firefox: https://addons.mozilla.org/en-US/firefox/addon/sugarchain-wallet-extension
+- Tip Extension for Firefox: https://addons.mozilla.org/en-US/firefox/addon/sugargift
 
 
 Testnet
 -------
 - Explorer Iquidus (testnet5): https://1explorer-testnet.cryptozeny.com
 - Explorer Esplora (testnet5): https://sugarchain.org/esplora-testnet
-- API Addressindex (testnet5): https://api-testnet.sugarchain.org/
-- Pool (testnet5): https://1pool-testnet.cryptozeny.com/
+- API Addressindex (testnet5): https://api-testnet.sugarchain.org
+- Pool (testnet5): https://1pool-testnet.cryptozeny.com
 
 
 Exchange
