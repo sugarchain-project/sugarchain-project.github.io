@@ -301,10 +301,10 @@ Testnet
 
 Exchange
 --------
-- ALTMARKETS.IO (v2)
-  * SUGAR-BTC: https://v2.altmarkets.io/trading/sugarbtc
 - GX.COM
   * SUGAR-USDT: https://www.gx.com/trade/SUGAR_USDT
+- ALTMARKETS.IO (v2)
+  * SUGAR-BTC: https://v2.altmarkets.io/trading/sugarbtc
 - EX4ANGE.ORG
   * SUGAR-BTC: https://ex4ange.org/?SUGAR-BTC
   * SUGAR-DOGE: https://ex4ange.org/?SUGAR-DOGE
