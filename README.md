@@ -301,11 +301,8 @@ Testnet
 
 Exchange
 --------
-- ALTMARKETS.IO
-  * SUGAR-BTC: https://altmarkets.io/trading/sugarbtc
-  * SUGAR-DOGE: https://altmarkets.io/trading/sugardoge
-- KUANGEX.COM
-  * SUGAR-USDT: https://www.kuangex.com/trade/sugar_usdt
+- ALTMARKETS.IO (v2)
+  * SUGAR-BTC: https://v2.altmarkets.io/trading/sugarbtc
 - GX.COM
   * SUGAR-USDT: https://www.gx.com/trade/SUGAR_USDT
 - EX4ANGE.ORG
@@ -313,10 +310,15 @@ Exchange
   * SUGAR-DOGE: https://ex4ange.org/?SUGAR-DOGE
 - OCCE.IO
   * SUGAR-BTC: https://www.occe.io/sugar_btc
-- ~~ALTILLY.COM~~ ***(Hacked)***
+- ~~ALTILLY.COM~~ ***(Hacked 2020-12)***
   * ~~SUGAR-BTC: https://altilly.com/market/SUGAR_BTC~~
   * ~~SUGAR-DOGE: https://altilly.com/market/SUGAR_DOGE~~
   * ~~SUGAR-USDT: https://altilly.com/market/SUGAR_USDT~~
+- ~~KUANGEX.COM~~ ***(Closed 2021-02)***
+  * ~~SUGAR-USDT: https://www.kuangex.com/trade/sugar_usdt~~
+- ~~ALTMARKETS.IO (v1)~~ ***(Shutdown 2021-03)***
+  * ~~SUGAR-BTC: https://altmarkets.io/trading/sugarbtc~~
+  * ~~SUGAR-DOGE: https://altmarkets.io/trading/sugardoge~~
 
 
 Community
