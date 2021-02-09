@@ -90,7 +90,6 @@
 				padding: 20px;
 			}
 			code {
-				/* background-color: #cccccc; */
 				padding: 2px;
 				margin: 2px;
 				font-family: 'Ubuntu Mono';
@@ -98,11 +97,21 @@
 				color: #e83e8c;
 			}
 			pre code {
-				/* background-color: #cccccc; */
 				padding: 0px;
 				margin: 0px;
 				font-family: 'Ubuntu Mono';
 				font-size: 112%;
+			}
+			a.img-link {
+				text-decoration: none;
+				padding: 5px;
+			}
+			a.img-link:hover {
+				text-decoration: none;
+			}
+			a.img-link img {
+				height: 32px;
+				width: 32px;
 			}
 		</style>
 	</head>
@@ -127,10 +136,18 @@
 						<a href="https://github.com/cryptozeny/cpuminer-opt-sugarchain/releases/latest" target="_blank">CPUMINER</a>
 						<a href="https://github.com/sugarchain-project/team-contacts/blob/master/README.md" target="_blank">TEAM</a>
 						<a href="#contacts" class="scroll">CONTACTS</a>
+						<a href="#exchange" class="scroll">TRADE</a>
 					</div>
 					<div class="markets mb-2">
-						<a href="https://coinmarketcap.com/currencies/sugarchain/" style="padding: 5px;"><img src="cmclogo.png" height="32" width="32"></a>
-						<a href="https://www.coingecko.com/en/coins/sugarchain" style="padding: 5px;"><img src="coingecko.png" height="32" width="32"></a>
+						<a href="https://coinmarketcap.com/currencies/sugarchain/" target="_blank" class="img-link">
+							<img src="cmclogo.png">
+						</a>
+						<a href="https://www.coingecko.com/en/coins/sugarchain" target="_blank" class="img-link">
+							<img src="coingecko.png">
+						</a>
+						<a href="https://coinpaprika.com/coin/sugar-sugarchain/" target="_blank" class="img-link">
+							<img src="paprika.svg">
+						</a>
 					</div>
 				</div>
 			</div>
