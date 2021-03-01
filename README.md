@@ -311,6 +311,8 @@ Exchange
 - OCCE.IO
   * SUGAR-BTC: https://www.occe.io/exchange/sugar_btc
   * SUGAR-UAH: https://www.occe.io/exchange/sugar_uah
+- CEXZ.CA
+  * SUGAR-LTC: https://www.cexz.ca/trading/sugarltc
 - ~~ALTILLY.COM~~ ***(Hacked 2020-12)***
   * ~~SUGAR-BTC: https://altilly.com/market/SUGAR_BTC~~
   * ~~SUGAR-DOGE: https://altilly.com/market/SUGAR_DOGE~~
