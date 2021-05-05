@@ -258,6 +258,7 @@ Please contact us if you have a new mining pool.
 - bullcpupool@russia: http://bullcpupool.com
 - reallypool@russia: http://reallypool.ru
 - instapool@USA: https://instapool.xyz
+- rawsugar@USA: https://rawsugar.xyz
 
 
 Explorer
