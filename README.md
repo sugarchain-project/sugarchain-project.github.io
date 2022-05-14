@@ -316,17 +316,20 @@ Exchange
 - EXBITRON.COM
   * SUGAR-USDT: https://www.exbitron.com/trading/sugarusdt
   * SUGAR-DOGE: https://www.exbitron.com/trading/sugardoge
-- ~~ALTILLY.COM~~ ***(Hacked 2020-12)***
-  * ~~SUGAR-BTC: https://altilly.com/market/SUGAR_BTC~~
-  * ~~SUGAR-DOGE: https://altilly.com/market/SUGAR_DOGE~~
-  * ~~SUGAR-USDT: https://altilly.com/market/SUGAR_USDT~~
-- ~~KUANGEX.COM~~ ***(Closed 2021-02)***
-  * ~~SUGAR-USDT: https://www.kuangex.com/trade/sugar_usdt~~
-- ~~ALTMARKETS.IO (v1)~~ ***(Shutdown 2021-03)***
-  * ~~SUGAR-BTC: https://altmarkets.io/trading/sugarbtc~~
-  * ~~SUGAR-DOGE: https://altmarkets.io/trading/sugardoge~~
-- ~~CEXZ.CA~~
-  * ~~SUGAR-LTC: https://www.cexz.ca/trading/sugarltc~~
+
+<details><summary>CLOSED EXCHANGE</summary>
+- ALTILLY.COM ***(Hacked 2020-12)***
+  * SUGAR-BTC: https://altilly.com/market/SUGAR_BTC
+  * SUGAR-DOGE: https://altilly.com/market/SUGAR_DOGE
+  * SUGAR-USDT: https://altilly.com/market/SUGAR_USDT
+- KUANGEX.COM ***(Closed 2021-02)***
+  * SUGAR-USDT: https://www.kuangex.com/trade/sugar_usdt
+- ALTMARKETS.IO (v1) ***(Shutdown 2021-03)***
+  * SUGAR-BTC: https://altmarkets.io/trading/sugarbtc
+  * SUGAR-DOGE: https://altmarkets.io/trading/sugardoge
+- CEXZ.CA
+  * SUGAR-LTC: https://www.cexz.ca/trading/sugarltc
+</details>
 
 
 Community
