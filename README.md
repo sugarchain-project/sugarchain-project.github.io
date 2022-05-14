@@ -313,8 +313,6 @@ Exchange
   * SUGAR-BTC: https://www.occe.io/exchange/sugar_btc
   * SUGAR-UAH: https://www.occe.io/exchange/sugar_uah
   * SUGAR-RUB: https://www.occe.io/exchange/sugar_rub
-- CEXZ.CA
-  * SUGAR-LTC: https://www.cexz.ca/trading/sugarltc
 - EXBITRON.COM
   * SUGAR-USDT: https://www.exbitron.com/trading/sugarusdt
   * SUGAR-DOGE: https://www.exbitron.com/trading/sugardoge
@@ -327,7 +325,8 @@ Exchange
 - ~~ALTMARKETS.IO (v1)~~ ***(Shutdown 2021-03)***
   * ~~SUGAR-BTC: https://altmarkets.io/trading/sugarbtc~~
   * ~~SUGAR-DOGE: https://altmarkets.io/trading/sugardoge~~
-
+- ~~CEXZ.CA~~
+  * ~~SUGAR-LTC: https://www.cexz.ca/trading/sugarltc~~
 
 Community
 ---------
