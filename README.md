@@ -302,8 +302,6 @@ Testnet
 
 Exchange
 --------
-- GX.COM
-  * SUGAR-USDT: https://www.gx.com/trade/SUGAR_USDT
 - ALTMARKETS.IO (v2)
   * SUGAR-BTC: https://v2.altmarkets.io/trading/sugarbtc
 - EX4ANGE.ORG
@@ -329,6 +327,8 @@ Exchange
   * SUGAR-DOGE: https://altmarkets.io/trading/sugardoge
 - CEXZ.CA
   * SUGAR-LTC: https://www.cexz.ca/trading/sugarltc
+- GX.COM
+  * SUGAR-USDT: https://www.gx.com/trade/SUGAR_USDT
 </details>
 
 
