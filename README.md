@@ -315,6 +315,9 @@ Exchange
   * SUGAR-RUB: https://www.occe.io/exchange/sugar_rub
 - CEXZ.CA
   * SUGAR-LTC: https://www.cexz.ca/trading/sugarltc
+- EXBITRON.COM
+  * SUGAR-USDT: https://www.exbitron.com/trading/sugarusdt
+  * SUGAR-DOGE: https://www.exbitron.com/trading/sugardoge
 - ~~ALTILLY.COM~~ ***(Hacked 2020-12)***
   * ~~SUGAR-BTC: https://altilly.com/market/SUGAR_BTC~~
   * ~~SUGAR-DOGE: https://altilly.com/market/SUGAR_DOGE~~
