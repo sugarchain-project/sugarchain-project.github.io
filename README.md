@@ -324,9 +324,7 @@ Exchange
   * SUGAR-USDT: https://www.exbitron.com/trading/sugarusdt
   * SUGAR-DOGE: https://www.exbitron.com/trading/sugardoge
 
-<details>
- <summary>CLOSED EXCHANGE</summary>
- 
+<details><summary>CLOSED EXCHANGE</summary>
 - ALTILLY.COM ***(Hacked 2020-12)***
   * SUGAR-BTC: https://altilly.com/market/SUGAR_BTC
   * SUGAR-DOGE: https://altilly.com/market/SUGAR_DOGE
