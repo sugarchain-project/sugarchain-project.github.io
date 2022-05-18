@@ -316,9 +316,7 @@ Exchange
   * SUGAR-BTC: https://ex4ange.org/?SUGAR-BTC
   * SUGAR-DOGE: https://ex4ange.org/?SUGAR-DOGE
 - OCCE.IO
-  * SUGAR-BTC: ~~https://www.occe.io/exchange/sugar_btc~~ (Disabled)
   * SUGAR-UAH: https://www.occe.io/exchange/sugar_uah
-  * SUGAR-RUB: ~~https://www.occe.io/exchange/sugar_rub~~ (Disabled)
 - EXBITRON.COM
   * SUGAR-USDT: https://www.exbitron.com/trading/sugarusdt
   * SUGAR-DOGE: https://www.exbitron.com/trading/sugardoge
