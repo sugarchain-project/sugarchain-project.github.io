@@ -290,7 +290,6 @@ Service
 - Android Wallet (APK download): https://github.com/sugarchain-project/android_wallet_sugarchain/releases/latest
 - Web Wallet: https://sugar.wtf/wallet
 - Web Wallet (old stable): https://sugarchain.org/wallet
-- Paper Wallet: ~~https://nao20010128nao.github.io/WalletGenerator.net/?currency=sugarchain~~ (Disabled)
 - Paper Wallet: https://lesmiscore.github.io/WalletGenerator.net/?currency=sugarchain 
 - Paper Wallet (old stable): https://sugarchain.org/SugarWalletGenerator.net/?currency=sugarchain
 - Wallet Extension for Google Chrome: https://chrome.google.com/webstore/detail/sugarchain-wallet-extensi/pgojdfajgcjjpjnbpfaelnpnjocakldb
