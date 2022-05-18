@@ -245,20 +245,16 @@ Please contact us if you have a new mining pool.
 - rplant@worldwide: https://pool.rplant.xyz
 - mofumofu@tokyo: https://nomp.mofumofu.me
 - dxpool@china: https://www.dxpool.com
-- anomp@china: http://anomp.com
-- lepool@china: http://www.lepool.com.cn:8080
-- nosuchpool@czechia: https://nosuchpool.cloud
+- anomp@china: http://39.103.144.156
 - customspeed@netherlands: http://pool.customspeed.nl
-- miningmadness@usa: https://www.miningmadness.com
 - cpu-pool@russia: http://cpu-pool.com
-- xpoolx@france: https://xpoolx.com
-- nendly@usa: https://sugar.nendly.com
-- ~~zpool@worldwide: https://zpool.ca/algo/yespowerSUGAR~~ (Disabled)
-- ~~zergpool@worldwide: https://zergpool.com/site/mining?algo=yespowerSugar~~ (Disabled)
-- bullcpupool@russia: http://bullcpupool.com
-- reallypool@russia: http://reallypool.ru
-- instapool@USA: https://instapool.xyz
-- rawsugar@USA: https://rawsugar.xyz
+- zpool@worldwide: https://zpool.ca/algo/yespowerSUGAR
+- zergpool@worldwide: https://zergpool.com/site/mining?algo=yespowerSugar
+- sugarchain.eu@czech republic: https://sugarchain.eu
+- mecrypto@worldwide: https://pool.mecrypto.club/poolstatus?coin=SUGAR
+- kriptokyng@usa: https://kriptokyng.com/pool
+- blockmasters@wordwide: http://blockmasters.co
+- nlpool@netherlands: https://www.nlpool.nl/
 
 
 Explorer
@@ -285,7 +281,7 @@ Service
 - Android Wallet (APK download): https://github.com/sugarchain-project/android_wallet_sugarchain/releases/latest
 - Web Wallet: https://sugar.wtf/wallet
 - Web Wallet (old stable): https://sugarchain.org/wallet
-- Paper Wallet: https://nao20010128nao.github.io/WalletGenerator.net/?currency=sugarchain
+- Paper Wallet: https://lesmiscore.github.io/WalletGenerator.net/?currency=sugarchain 
 - Paper Wallet (old stable): https://sugarchain.org/SugarWalletGenerator.net/?currency=sugarchain
 - Wallet Extension for Google Chrome: https://chrome.google.com/webstore/detail/sugarchain-wallet-extensi/pgojdfajgcjjpjnbpfaelnpnjocakldb
 - Wallet Extension for Firefox: https://addons.mozilla.org/en-US/firefox/addon/sugarchain-wallet-extension
@@ -304,13 +300,14 @@ Exchange
 --------
 - ALTMARKETS.IO (v2)
   * SUGAR-BTC: https://v2.altmarkets.io/trading/sugarbtc
+  * SUGAR-DOGE: https://v2.altmarkets.io/trading/sugardoge
+  * SUGAR-LTC: https://v2.altmarkets.io/trading/sugarltc
+  * SUGAR-USDT: https://v2.altmarkets.io/trading/sugarusdt
 - EX4ANGE.ORG
   * SUGAR-BTC: https://ex4ange.org/?SUGAR-BTC
   * SUGAR-DOGE: https://ex4ange.org/?SUGAR-DOGE
 - OCCE.IO
-  * SUGAR-BTC: https://www.occe.io/exchange/sugar_btc
   * SUGAR-UAH: https://www.occe.io/exchange/sugar_uah
-  * SUGAR-RUB: https://www.occe.io/exchange/sugar_rub
 - EXBITRON.COM
   * SUGAR-USDT: https://www.exbitron.com/trading/sugarusdt
   * SUGAR-DOGE: https://www.exbitron.com/trading/sugardoge
