@@ -255,15 +255,6 @@ Please contact us if you have a new mining pool.
 - kriptokyng@usa: https://kriptokyng.com/pool
 - blockmasters@wordwide: http://blockmasters.co
 - nlpool@netherlands: https://www.nlpool.nl/
-- ~~bullcpupool@russia: http://bullcpupool.com~~ (Disabled)
-- ~~reallypool@russia: http://reallypool.ru~~ (Disabled)
-- ~~instapool@USA: https://instapool.xyz~~ (Disabled)
-- ~~rawsugar@USA: https://rawsugar.xyz~~ (Disabled)
-- ~~lepool@china: http://www.lepool.com.cn:8080~~ (Disabled)
-- ~~nosuchpool@czechia: https://nosuchpool.cloud~~ (Disabled)
-- ~~miningmadness@usa: https://www.miningmadness.com~~ (Disabled)
-- ~~xpoolx@france: https://xpoolx.com~~ (Disabled)
-- ~~nendly@usa: https://sugar.nendly.com~~ (Disabled)
 
 
 Explorer
