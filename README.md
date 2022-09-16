@@ -249,7 +249,7 @@ Please contact us if you have a new mining pool.
 - customspeed@netherlands: http://pool.customspeed.nl
 - cpu-pool@russia: http://cpu-pool.com
 - zpool@worldwide: https://zpool.ca/algo/yespowerSUGAR
-- zergpool@worldwide: https://zergpool.com/site/mining?algo=yespowerSugar  
+- zergpool@worldwide: https://zergpool.com/site/mining?algo=yespowerSugar
 - ~~sugarchain.eu@czech republic: https://sugarchain.eu~~
 - mecrypto@worldwide: https://pool.mecrypto.club/poolstatus?coin=SUGAR
 - kriptokyng@usa: https://kriptokyng.com/pool
