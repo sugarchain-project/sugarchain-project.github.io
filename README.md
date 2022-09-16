@@ -244,13 +244,13 @@ Please contact us if you have a new mining pool.
 - 2pool@tokyo: https://2pool.sugarchain.org
 - rplant@worldwide: https://pool.rplant.xyz
 - mofumofu@tokyo: https://nomp.mofumofu.me
-- dxpool@china: https://www.dxpool.com
-- anomp@china: http://39.103.144.156
+- dxpool@china: https://www.dxpool.net/?pool=labs
+- anomp@china: https://anomp.cc/getting_started/sugar
 - customspeed@netherlands: http://pool.customspeed.nl
 - cpu-pool@russia: http://cpu-pool.com
 - zpool@worldwide: https://zpool.ca/algo/yespowerSUGAR
-- zergpool@worldwide: https://zergpool.com/site/mining?algo=yespowerSugar
-- sugarchain.eu@czech republic: https://sugarchain.eu
+- zergpool@worldwide: https://zergpool.com/site/mining?algo=yespowerSugar  
+- ~~sugarchain.eu@czech republic: https://sugarchain.eu~~
 - mecrypto@worldwide: https://pool.mecrypto.club/poolstatus?coin=SUGAR
 - kriptokyng@usa: https://kriptokyng.com/pool
 - blockmasters@wordwide: http://blockmasters.co
