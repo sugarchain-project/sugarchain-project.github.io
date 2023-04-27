@@ -297,6 +297,15 @@ Testnet
 
 Exchange
 --------
+- XEGGEX.COM
+  * SUGAR-USDT: https://xeggex.com/market/SUGAR_USDT
+  * SUGAR-DOGE: https://xeggex.com/market/SUGAR_DOGE
+- BITXONEX.COM
+  * SUGAR-USDT: https://www.bitxonex.com/market/sugarusdt
+  * SUGAR-LTC: https://www.bitxonex.com/market/sugarltc
+- OCCE.IO
+  * SUGAR-USDT: https://www.occe.io/exchange/sugar_usdt
+  * SUGAR-TRX: https://www.occe.io/exchange/sugar_trx
 - ALTMARKETS.IO (v2)
   * SUGAR-BTC: https://v2.altmarkets.io/trading/sugarbtc
   * SUGAR-DOGE: https://v2.altmarkets.io/trading/sugardoge
@@ -305,11 +314,6 @@ Exchange
 - EX4ANGE.ORG
   * SUGAR-BTC: https://ex4ange.org/?SUGAR-BTC
   * SUGAR-DOGE: https://ex4ange.org/?SUGAR-DOGE
-- OCCE.IO
-  * SUGAR-TRX: https://www.occe.io/exchange/sugar_trx
-- EXBITRON.COM
-  * SUGAR-USDT: https://www.exbitron.com/trading/sugarusdt
-  * SUGAR-DOGE: https://www.exbitron.com/trading/sugardoge
 
 <details>
  <summary>CLOSED EXCHANGE</summary>
@@ -327,6 +331,9 @@ Exchange
   * SUGAR-LTC: https://www.cexz.ca/trading/sugarltc
 - GX.COM
   * SUGAR-USDT: https://www.gx.com/trade/SUGAR_USDT
+- EXBITRON.COM
+  * SUGAR-USDT: https://www.exbitron.com/trading/sugarusdt
+  * SUGAR-DOGE: https://www.exbitron.com/trading/sugardoge
 </details>
 
 
