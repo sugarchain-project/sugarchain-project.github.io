@@ -198,7 +198,8 @@
 
 			function stats(first = false) {
 				Promise.resolve($.ajax({
-					url: "https://api.sugarchain.org/info",
+					// url: "https://api.sugarchain.org/info",
+					url: "https://api.sugar.wtf/info",
 				})).then(function(data) {
 					$("#height .current").attr("href", "https://1explorer.sugarchain.org/block/" + data["result"]["bestblockhash"])
 					$("#height .current").text(data["result"]["blocks"])
