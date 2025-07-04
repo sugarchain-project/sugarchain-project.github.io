@@ -258,12 +258,10 @@ Please contact us if you have a new mining pool.
 
 Explorer
 --------
-- Iquidus: https://1explorer.sugarchain.org
 - Addressindex: https://sugar.wtf
 - Addressindex (old stable): https://sugarchain.org/explorer
-- Esplora: https://sugar.wtf/esplora
-- Esplora (old stable): https://sugarchain.org/esplora
-- Verge: https://2explorer.sugarchain.org
+- Addressindex (alternative): https://explorer2.sugarchain.net
+- Esplora: https://sugarchain.org/esplora
 
 
 Service
